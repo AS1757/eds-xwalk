@@ -15,5 +15,5 @@ export default function decorate(block) {
     }
   });
   audioElement.appendChild(document.createTextNode(audioFallbackText));
-  block.replaceChildren(audioElement);
+  block.append(audioElement);
 }
