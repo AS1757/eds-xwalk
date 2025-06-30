@@ -45,7 +45,7 @@
         },
         {
           "component": "text",
-          "valueType": "string",
+          "valueType": "url",
           "name": "audioSourceURL",
           "label": "Audio Source URL (w/o extension)",
           "value": "<Audio Source URL (w/o extension)>"
