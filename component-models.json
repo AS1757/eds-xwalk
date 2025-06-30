@@ -174,7 +174,7 @@
         "component": "text",
         "valueType": "string",
         "name": "audioSourceMimeType",
-        "label": "Source MIME Type",
+        "label": "Audio Source MIME Type",
         "value": "<Audio Source MIME Type>"
       }
     ]
