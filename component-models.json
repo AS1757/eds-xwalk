@@ -154,12 +154,12 @@
     ]
   },
   {
-    "id": "audioSource",
+    "id": "source",
     "fields": [
       {
         "component": "text",
         "valueType": "string",
-        "name": "audioSource",
+        "name": "sourceURL",
         "label": "Source URL",
         "value": "<Source URL>"
       }
