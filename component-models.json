@@ -147,13 +147,6 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "audioTitle",
-        "label": "Audio block title",
-        "value": "<Audio block title>"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
         "name": "audioSourceURL",
         "label": "Audio Source URL (w/o extension)",
         "value": "<Audio Source URL (w/o extension)>"
