@@ -148,8 +148,8 @@
         "component": "text",
         "valueType": "string",
         "name": "audioTitle",
-        "label": "<Audio Component  title>",
-        "value": ""
+        "label": "Audio block title",
+        "value": "<Audio block title>"
       }
     ]
   },
@@ -159,16 +159,16 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "source",
-        "label": "Source URL",
-        "value": ""
+        "name": "audioSourceURL",
+        "label": "Audio Source URL",
+        "value": "<Audio Source URL>"
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "type",
+        "name": "audioSourceMimeType",
         "label": "Source MIME Type",
-        "value": ""
+        "value": "<Audio Source MIME Type>"
       }
     ]
   },
