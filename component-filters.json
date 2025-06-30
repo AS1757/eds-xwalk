@@ -23,7 +23,7 @@
   {
     "id": "audio",
     "components": [
-      "customMimeType"
+      "source"
     ]
   },
   {

@@ -17,15 +17,15 @@
       }
     },
     {
-      "title": "Custom MIME type",
-      "id": "customMimeType",
+      "title": "Audio Source",
+      "id": "audioSource",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block",
             "template": {
-              "name": "Mime Type",
-              "model": "mimeType"
+              "name": "Audio Source",
+              "model": "audioSource"
             }
           }
         }
@@ -39,34 +39,6 @@
         {
           "component": "text",
           "valueType": "string",
-          "name": "audioSourceURL",
-          "label": "Audio Source URL (w/o extension)",
-          "value": "<Audio Source URL (w/o extension)>"
-        },
-        {
-          "component": "multiselect",
-          "name": "audioSourceTypes",
-          "value": [],
-          "label": "Audio Source Types",
-          "valueType": "array",
-          "options": [
-            {
-              "name": "mp3",
-              "value": "audio/mp3"
-            },
-            {
-              "name": "ogg",
-              "value": "audio/ogg"
-            },
-            {
-              "name": "mp4",
-              "value": "audio/mp4"
-            }
-          ]
-        },
-        {
-          "component": "text",
-          "valueType": "string",
           "name": "audioFallbackText",
           "label": "Audio fallback Text",
           "value": "<Audio fallback Text>"
@@ -74,14 +46,14 @@
       ]
     },
     {
-      "id": "mimeType",
+      "id": "source",
       "fields": [
         {
           "component": "text",
           "valueType": "string",
-          "name": "mimeType",
-          "label": "MIME Type",
-          "value": "<Mime Type>"
+          "name": "source",
+          "label": "Source URL",
+          "value": "<Source URL>"
         }
       ]
     }
@@ -89,7 +61,7 @@
   "filters": [
     {
       "id": "audio",
-      "components": ["customMimeType"]
+      "components": ["source"]
     }
   ]
 }

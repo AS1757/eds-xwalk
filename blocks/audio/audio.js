@@ -1,9 +1,15 @@
 export default function decorate(block) {
-  const audioContainer = block.children[1];
-  const audioSource = block.querySelector('a').href;
-  audioContainer.innerHTML = `<audio controls>
-    <source src="${audioSource}.ogg" type="audio/ogg">
-    <source src="${audioSource}.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-  </audio>`;
+  const audioSource = block.children[0].querySelector('a').href;
+  const audioSourceTypes = block.children[1].textContent.trim().split(',');
+  const audioFallbackText = block.children[2].textContent.trim();
+  const audioElement = document.createElement('audio');
+  audioElement.controls = true;
+  audioSourceTypes.forEach((type) => {
+    const sourceElement = document.createElement('source');
+    sourceElement.src = `${audioSource}.${type}`;
+    sourceElement.type = `audio/${type}`;
+    audioElement.appendChild(sourceElement);
+  });
+  audioElement.appendChild(document.createTextNode(audioFallbackText));
+  block.replaceChildren(audioElement);
 }
