@@ -142,6 +142,25 @@
     ]
   },
   {
+    "id": "audio",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Title",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "source",
+        "label": "Source",
+        "value": ""
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
@@ -230,25 +249,6 @@
         "valueType": "string",
         "name": "author",
         "label": "Author",
-        "value": ""
-      }
-    ]
-  },
-  {
-    "id": "audio",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "title",
-        "label": "Title",
-        "value": ""
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "source",
-        "label": "Source",
         "value": ""
       }
     ]
