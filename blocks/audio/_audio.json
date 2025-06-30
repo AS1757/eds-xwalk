@@ -11,7 +11,23 @@
               "name": "Audio",
               "model": "audio",
               "title": "Audio Component",
-              "source": ""
+              "filter": "audio"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Source",
+      "id": "source",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Source",
+              "model": "source",
+              "title": "Audio Source"
             }
           }
         }
@@ -26,32 +42,35 @@
           "component": "text",
           "valueType": "string",
           "name": "title",
-          "label": "Title",
+          "label": "Audio Title",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "source",
+          "label": "Source",
           "value": ""
         },
         {
-          "component": "multifield",
-          "fieldDescription": "Click 'Add field' to add new audio source dropdown.",
-          "fieldLabel": "Audio Sources",
-          "field": [
-            {
-              "component": "text",
-              "valueType": "string",
-              "name": "source",
-              "label": "Source",
-              "value": ""
-            },
-            {
-              "component": "text",
-              "valueType": "string",
-              "name": "type",
-              "label": "Type",
-              "value": ""
-            }
-          ]
+          "component": "text",
+          "valueType": "string",
+          "name": "type",
+          "label": "Type",
+          "value": ""
         }
       ]
     }
   ],
-  "filters": []
+  "filters": [
+    {
+      "id": "audio",
+      "components": ["source"]
+    }
+  ]
 }

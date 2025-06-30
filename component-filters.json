@@ -21,6 +21,12 @@
     ]
   },
   {
+    "id": "audio",
+    "components": [
+      "source"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
