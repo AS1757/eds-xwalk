@@ -99,8 +99,8 @@
           }
         },
         {
-          "title": "Audio Source",
-          "id": "audioSource",
+          "title": "Source",
+          "id": "source",
           "plugins": {
             "xwalk": {
               "page": {

@@ -17,8 +17,8 @@
       }
     },
     {
-      "title": "Audio Source",
-      "id": "audioSource",
+      "title": "Source",
+      "id": "source",
       "plugins": {
         "xwalk": {
           "page": {
@@ -61,7 +61,7 @@
   "filters": [
     {
       "id": "audio",
-      "components": ["audioSource"]
+      "components": ["source"]
     }
   ]
 }
