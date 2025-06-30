@@ -147,27 +147,27 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "title",
-        "label": "Audio Title",
+        "name": "audioTitle",
+        "label": "<Audio Component  title>",
         "value": ""
       }
     ]
   },
   {
-    "id": "sources",
+    "id": "source",
     "fields": [
       {
         "component": "text",
         "valueType": "string",
         "name": "source",
-        "label": "Source",
+        "label": "Source URL",
         "value": ""
       },
       {
         "component": "text",
         "valueType": "string",
         "name": "type",
-        "label": "Type",
+        "label": "Source MIME Type",
         "value": ""
       }
     ]
