@@ -17,7 +17,8 @@
       "columns",
       "fragment",
       "quote",
-      "audio"
+      "audio",
+      "select"
     ]
   },
   {
@@ -45,6 +46,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "select",
+    "components": [
+      "options"
     ]
   }
 ]
