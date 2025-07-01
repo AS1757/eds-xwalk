@@ -277,10 +277,6 @@
           {
             "name": "Yes",
             "value": "multiple"
-          },
-          {
-            "name": "NO",
-            "value": ""
           }
         ]
       }
