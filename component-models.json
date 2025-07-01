@@ -269,16 +269,25 @@
         "value": "<Please enter path of Options data file>"
       },
       {
-        "component": "checkbox",
-        "valueType": "boolean",
+        "component": "select",
         "name": "multiselect",
         "label": "Allow multiple selections",
-        "value": false
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Yes",
+            "value": "multiple"
+          },
+          {
+            "name": "NO",
+            "value": ""
+          }
+        ]
       }
     ]
   },
   {
-    "id": "options",
+    "id": "option",
     "fields": [
       {
         "component": "text",
