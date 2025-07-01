@@ -291,7 +291,7 @@
     "fields": [
       {
         "component": "text",
-        "valueType": "strink",
+        "valueType": "string",
         "name": "key",
         "label": "Key",
         "value": ""
