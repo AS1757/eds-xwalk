@@ -51,7 +51,7 @@
   {
     "id": "select",
     "components": [
-      "options"
+      "option"
     ]
   }
 ]

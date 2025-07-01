@@ -84,7 +84,7 @@
   "filters": [
     {
       "id": "select",
-      "components": ["options"]
+      "components": ["option"]
     }
   ]
 }
