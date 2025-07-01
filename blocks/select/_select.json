@@ -1,7 +1,7 @@
 {
   "definitions": [
     {
-      "title": "Select (A, b c)",
+      "title": "Select",
       "id": "select",
       "plugins": {
         "xwalk": {
