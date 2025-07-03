@@ -11,17 +11,35 @@ async function fetchData(url) {
   }
 }
 
+function addOptionElement(parent, value, key) {
+  const optionElement = document.createElement('option');
+  optionElement.textContent = value;
+  optionElement.value = key;
+  parent.append(optionElement);
+}
+
 export default function decorate(block) {
   const optionsURL = block.children[0].querySelector('a')?.href;
+  const allowMultiple = block.children[1].textContent.trim();
   const selectElement = document.createElement('select');
+  addOptionElement(selectElement, '---Select---', '');
+  if (allowMultiple) {
+    selectElement.multiple = true;
+  }
+  [...block.children].forEach((option, index) => {
+    if (index > 1) {
+      const optionKey = option.children[0]?.textContent.trim();
+      const optionValue = option.children[1]?.textContent.trim();
+      if (optionKey && optionValue) {
+        addOptionElement(selectElement, optionValue, optionKey);
+      }
+    }
+  });
   if (optionsURL) {
     fetchData(optionsURL).then((optionsData) => {
       const options = optionsData.data;
       options.forEach((option) => {
-        const optionElement = document.createElement('option');
-        optionElement.textContent = option.value;
-        optionElement.value = option.key;
-        selectElement.append(optionElement);
+        addOptionElement(selectElement, option.value, option.key);
       });
     });
   }
