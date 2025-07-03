@@ -18,7 +18,8 @@
       "fragment",
       "quote",
       "audio",
-      "select"
+      "select",
+      "slider"
     ]
   },
   {

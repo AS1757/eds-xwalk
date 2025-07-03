@@ -300,5 +300,31 @@
         "value": ""
       }
     ]
+  },
+  {
+    "id": "slider",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "min",
+        "label": "Minimum",
+        "value": "0"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "max",
+        "label": "Maximum",
+        "value": "100"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "step",
+        "label": "Step",
+        "value": "5"
+      }
+    ]
   }
 ]
