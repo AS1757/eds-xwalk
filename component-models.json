@@ -326,7 +326,7 @@
         "value": "5"
       },
       {
-        "component": "text",
+        "component": "number",
         "valueType": "number",
         "name": "value",
         "label": "Value",
