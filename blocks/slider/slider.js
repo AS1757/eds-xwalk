@@ -1,10 +1,9 @@
 export default function decorate(block) {
-  const min = block.children[0].textContent.trim() || 0;
-  const max = block.children[1].textContent.trim() || 10;
-  const step = block.children[2].textContent.trim() || 1;
-  const value = block.children[3].textContent.trim() || 6;
+  const min = block.children[0].textContent.trim();
+  const max = block.children[1].textContent.trim();
+  const step = block.children[2].textContent.trim();
+  const value = block.children[3].textContent.trim();
   const rangeInput = document.createElement('input');
-  const rangeInputValue = document.createElement('p');
   rangeInput.type = 'range';
   rangeInput.min = min;
   rangeInput.max = max;
@@ -12,6 +11,8 @@ export default function decorate(block) {
   rangeInput.step = step;
 
   block.append(rangeInput);
+
+  const rangeInputValue = document.createElement('p');
   block.append(rangeInputValue);
   rangeInputValue.innerText = rangeInput.value;
   rangeInput.addEventListener('change', (e) => {

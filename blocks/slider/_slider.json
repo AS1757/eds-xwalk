@@ -42,8 +42,8 @@
           "value": "5"
         },
         {
-          "component": "number",
-          "valueType": "number",
+          "component": "text",
+          "valueType": "string",
           "name": "value",
           "label": "Value",
           "value": "5"
