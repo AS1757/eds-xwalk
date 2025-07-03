@@ -324,6 +324,13 @@
         "name": "step",
         "label": "Step",
         "value": "5"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "value",
+        "label": "Value",
+        "value": "5"
       }
     ]
   }
