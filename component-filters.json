@@ -54,5 +54,11 @@
     "components": [
       "option"
     ]
+  },
+  {
+    "id": "video",
+    "components": [
+      "source"
+    ]
   }
 ]

@@ -333,5 +333,21 @@
         "value": "5"
       }
     ]
+  },
+  {
+    "id": "video",
+    "fields": []
+  },
+  {
+    "id": "source",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "sourceURL",
+        "label": "Source URL",
+        "value": "<Source URL>"
+      }
+    ]
   }
 ]
