@@ -1087,14 +1087,14 @@ export default function decorate(block) {
   if (videoURL) {
     const htmlVideoElement = document.createElement('div');
     htmlVideoElement.setAttribute('data-vimeo-url', videoURL);
-    htmlVideoElement.setAttribute('data-vimeo-height', 'auto');
-    htmlVideoElement.setAttribute('data-vimeo-width', '100%');
-    htmlVideoElement.setAttribute('id', 'video_1');
+    // htmlVideoElement.setAttribute('data-vimeo-width', '457');
+    // htmlVideoElement.setAttribute('data-vimeo-height', '259px');
+    htmlVideoElement.setAttribute('id', 'video-1');
 
     block.append(htmlVideoElement);
 
     addEventListener('DOMContentLoaded', () => {
-      const videoContainer = document.querySelector('#video_1');
+      const videoContainer = document.querySelector('#video-1');
       // eslint-disable-next-line no-undef
       const player = new Vimeo.Player(videoContainer);
 
