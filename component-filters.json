@@ -59,7 +59,7 @@
   {
     "id": "video",
     "components": [
-      "source"
+      "videoSource"
     ]
   }
 ]

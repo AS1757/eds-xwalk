@@ -38,14 +38,14 @@
       "fields": []
     },
     {
-      "id": "source",
+      "id": "videoSource",
       "fields": [
         {
           "component": "text",
           "valueType": "string",
-          "name": "sourceURL",
-          "label": "Source URL",
-          "value": "<Source URL>"
+          "name": "videoSourceURL",
+          "label": "Video Source URL",
+          "value": "<Video Source URL>"
         }
       ]
     }
@@ -53,7 +53,7 @@
   "filters": [
     {
       "id": "video",
-      "components": ["source"]
+      "components": ["videoSource"]
     }
   ]
 }
