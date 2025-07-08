@@ -56,7 +56,8 @@
         "select",
         "slider",
         "video",
-        "form"
+        "form",
+        "embed-adaptive-form"
       ]
     }
   ]
