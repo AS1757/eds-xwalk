@@ -20,7 +20,8 @@
       "audio",
       "select",
       "slider",
-      "video"
+      "video",
+      "form"
     ]
   },
   {
