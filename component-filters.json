@@ -23,7 +23,7 @@
       "video",
       "form",
       "embed-adaptive-form",
-      "questionare"
+      "questionnaire"
     ]
   },
   {
@@ -83,7 +83,7 @@
     ]
   },
   {
-    "id": "questionare",
+    "id": "questionnaire",
     "components": []
   },
   {

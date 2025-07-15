@@ -5075,12 +5075,12 @@
     ]
   },
   {
-    "id": "questionare",
+    "id": "questionnaire",
     "fields": [
       {
         "component": "aem-content",
-        "name": "optionsDataURL",
-        "label": "Options Data URL"
+        "name": "DataURL",
+        "label": "Questions Data URL"
       }
     ]
   },
