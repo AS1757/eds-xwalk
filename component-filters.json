@@ -22,7 +22,8 @@
       "slider",
       "video",
       "form",
-      "embed-adaptive-form"
+      "embed-adaptive-form",
+      "questionare"
     ]
   },
   {
@@ -80,6 +81,10 @@
       "tnc",
       "wizard"
     ]
+  },
+  {
+    "id": "questionare",
+    "components": []
   },
   {
     "id": "select",

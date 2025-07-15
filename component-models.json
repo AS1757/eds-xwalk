@@ -5075,6 +5075,16 @@
     ]
   },
   {
+    "id": "questionare",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "optionsDataURL",
+        "label": "Options Data URL"
+      }
+    ]
+  },
+  {
     "id": "quote",
     "fields": [
       {
