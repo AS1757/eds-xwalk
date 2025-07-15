@@ -22,9 +22,11 @@
       "id": "questionnaire",
       "fields": [
         {
-          "component": "aem-content",
-          "name": "DataURL",
-          "label": "Questions Data URL"
+          "component": "text",
+          "valueType": "string",
+          "name": "Data URL",
+          "label": "Data URL",
+          "value": "<Please enter path of data file>"
         }
       ]
     }
