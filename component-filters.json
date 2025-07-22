@@ -92,6 +92,7 @@
       "option"
     ]
   },
+  "title",
   {
     "id": "video",
     "components": [
