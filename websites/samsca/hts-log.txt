@@ -1,0 +1,45 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 23 Jul 2025 13:16:05 at https://www.samsca.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.samsca.com/ -O1 "C:\Users\WC944DA\OneDrive - EY\Desktop\staticSite\Test" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:19:30	Error: 	"Not Found" (404) at link https://www.samsca.com/themes/custom/samsca_hcp/images/Samsca/img_SamscaLogo.png (from https://www.samsca.com/)
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/fontawesome-webfont.eot?v=3.2.1
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/fontawesome-webfont.eot?
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/fontawesome-webfont.woff?v=3.2.1
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/fontawesome-webfont.ttf?v=3.2.1
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/glyphicons-halflings-regular.eot
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/glyphicons-halflings-regular.eot?
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/glyphicons-halflings-regular.woff
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/glyphicons-halflings-regular.ttf
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/helveticaneueltpro-ltcn-webfont.eot
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/helveticaneueltpro-ltcn-webfont.woff
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/helveticaneueltpro-ltcn-webfont.ttf
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/helveticaneue-light-webfont.eot
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/helveticaneue-light-webfont.woff
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/helveticaneue-light-webfont.ttf
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/tradegothicltstd-bold-webfont.eot
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/tradegothicltstd-bold-webfont.woff
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/tradegothicltstd-bold-webfont.ttf
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/MyriadPro-Bold.otf
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/MyriadPro-Semibold.otf
+13:20:13	Warning: 	File not parsed, looks like binary: https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/fonts/MyriadPro-Regular.otf
+13:20:13	Error: 	"Not Found" (404) at link https://www.samsca.com/themes/custom/samsca_hcp/fancybox/fancybox.png (from https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/css/styles.css?szh8fp)
+13:20:13	Error: 	"Not Found" (404) at link https://www.samsca.com/Scripts/backgroundsize.min.htc (from https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/css/styles.css?szh8fp)
+13:20:13	Error: 	"Not Found" (404) at link https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/images/Samsca/case-studies/SIADH_PatientCase_4_landingpage.jpg (from https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/css/styles.css?szh8fp)
+13:20:13	Error: 	"Not Found" (404) at link https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/images/Samsca/case-studies/SIADH_PatientCase_4_casestudypage.jpg (from https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/css/styles.css?szh8fp)
+13:20:13	Error: 	"Not Found" (404) at link https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/images/Samsca/mobile-icon-rotate.png (from https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/css/styles.css?szh8fp)
+13:20:13	Error: 	"Not Found" (404) at link https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/css/images/Samsca/img_SamscaLogo.jpg (from https://www.samsca.com/sites/g/files/qhldwo10166/themes/site/themes/custom/samsca_hcp2/css/styles.css?szh8fp)
+13:20:13	Error: 	"Not Found" (404) at link https://www.samsca.com/stay-informed (from https://www.samsca.com/what-is-hyponatremia)
+13:21:10	Warning: 	Moved Permanently for https://www.samsca.com/hyponatremia-resources/video-library/?video=samsca_moa
+13:21:10	Warning: 	File has moved from https://www.samsca.com/hyponatremia-resources/video-library/?video=samsca_moa to https://www.samsca.com/hyponatremia-resources/video-library?video=samsca_moa
+13:21:11	Warning: 	Moved Permanently for https://www.samsca.com/hyponatremia-resources/video-library/?video=pathophysiology
+13:21:11	Warning: 	File has moved from https://www.samsca.com/hyponatremia-resources/video-library/?video=pathophysiology to https://www.samsca.com/hyponatremia-resources/video-library?video=pathophysiology
+13:21:12	Error: 	"Not Found" (404) at link https://www.samsca.com/themes/custom/samsca_hcp/images/Samsca/caret-right-light.png (from https://www.samsca.com/contact-us)
+13:21:12	Error: 	"Not Found" (404) at link https://www.samsca.com/video-library (from https://www.samsca.com/hyponatremia-siadh/oncology)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 8 seconds : 421 links scanned, 408 files written (22644777 bytes overall) [18587622 bytes received at 60349 bytes/sec], 5828523 bytes transferred using HTTP compression in 190 files, ratio 22%, 38.7 requests per connection
+(10 errors, 24 warnings, 0 messages)
