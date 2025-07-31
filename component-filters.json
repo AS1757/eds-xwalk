@@ -23,8 +23,7 @@
       "video",
       "form",
       "embed-adaptive-form",
-      "questionnaire",
-      "test"
+      "questionnaire"
     ]
   },
   {
@@ -91,12 +90,6 @@
     "id": "select",
     "components": [
       "option"
-    ]
-  },
-  {
-    "id": "test",
-    "components": [
-      "title"
     ]
   },
   {
