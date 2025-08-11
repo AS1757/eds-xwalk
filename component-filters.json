@@ -33,6 +33,10 @@
     ]
   },
   {
+    "id": "video",
+    "components": []
+  },
+  {
     "id": "cards",
     "components": [
       "card"
