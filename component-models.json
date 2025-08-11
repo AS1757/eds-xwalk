@@ -5123,7 +5123,7 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "Data URL",
+        "name": "DataURL",
         "label": "Data URL",
         "value": "<Please enter path of data file>"
       }
