@@ -1,6 +1,11 @@
-export default function decorate(block) {
-  const [quoteWrapper] = block.children;
-  const blockquote = document.createElement('blockquote');
-  blockquote.textContent = quoteWrapper.textContent.trim();
-  quoteWrapper.replaceChildren(blockquote);
+import { renderBlock } from '../../scripts/faintly.js';
+
+export default async function decorate(block) {
+  const quote = block.children[0].textContent.trim();
+  const authorName = block.children[1].textContent.trim();
+  await renderBlock(block, {
+    quote,
+    authorName,
+    someFunction: () => `${authorName} test`,
+  });
 }
