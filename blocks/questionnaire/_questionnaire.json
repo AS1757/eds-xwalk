@@ -24,8 +24,8 @@
         {
           "component": "text",
           "valueType": "string",
-          "name": "Data URL",
-          "label": "Data URL",
+          "name": "Data",
+          "label": "Data",
           "value": "<Please enter path of data file>"
         }
       ]

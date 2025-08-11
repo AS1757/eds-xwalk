@@ -368,20 +368,6 @@
           },
           {
             "component": "text",
-            "name": "cc",
-            "label": "CC",
-            "valueType": "string",
-            "multi": true
-          },
-          {
-            "component": "text",
-            "name": "bcc",
-            "label": "BCC",
-            "valueType": "string",
-            "multi": true
-          },
-          {
-            "component": "text",
             "name": "subject",
             "label": "Subject",
             "valueType": "string"
@@ -5123,8 +5109,8 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "DataURL",
-        "label": "Data URL",
+        "name": "Data",
+        "label": "Data",
         "value": "<Please enter path of data file>"
       }
     ]
