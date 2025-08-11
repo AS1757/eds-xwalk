@@ -24,7 +24,7 @@
       "form",
       "embed-adaptive-form",
       "questionnaire",
-      "bpVideo"
+      "videoplayer"
     ]
   },
   {
@@ -32,10 +32,6 @@
     "components": [
       "source"
     ]
-  },
-  {
-    "id": "bpVideo",
-    "components": []
   },
   {
     "id": "cards",
