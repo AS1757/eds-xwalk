@@ -1,7 +1,7 @@
 {
   "definitions": [
     {
-      "title": "Video",
+      "title": "Video | BP",
       "id": "bpVideo",
       "plugins": {
         "xwalk": {
