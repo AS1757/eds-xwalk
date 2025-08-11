@@ -5169,17 +5169,13 @@
   },
   {
     "id": "video",
-    "fields": []
-  },
-  {
-    "id": "videoSource",
     "fields": [
       {
         "component": "text",
         "valueType": "string",
-        "name": "videoSourceURL",
-        "label": "Video Source URL",
-        "value": "<Video Source URL>"
+        "name": "videoURL",
+        "label": "Video URL",
+        "value": "<Video URL>"
       }
     ]
   }

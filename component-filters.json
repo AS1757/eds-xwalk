@@ -95,8 +95,6 @@
   },
   {
     "id": "video",
-    "components": [
-      "videoSource"
-    ]
+    "components": []
   }
 ]
