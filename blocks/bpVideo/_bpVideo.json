@@ -2,30 +2,15 @@
   "definitions": [
     {
       "title": "Video",
-      "id": "video",
+      "id": "bpVideo",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block",
             "template": {
-              "name": "Video",
-              "model": "video",
-              "filter": "video"
-            }
-          }
-        }
-      }
-    },
-    {
-      "title": "Video Source",
-      "id": "videoSource",
-      "plugins": {
-        "xwalk": {
-          "page": {
-            "resourceType": "core/franklin/components/block/v1/block",
-            "template": {
-              "name": "Video Source",
-              "model": "videoSource"
+              "name": "bpVideo",
+              "model": "bpVideo",
+              "filter": "bpVideo"
             }
           }
         }
@@ -34,7 +19,7 @@
   ],
   "models": [
     {
-      "id": "video",
+      "id": "bpVideo",
       "fields": [
         {
           "component": "aem-content",
@@ -79,7 +64,7 @@
   ],
   "filters": [
     {
-      "id": "video",
+      "id": "bpVideo",
       "components": []
     }
   ]

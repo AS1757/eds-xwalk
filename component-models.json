@@ -166,7 +166,7 @@
     ]
   },
   {
-    "id": "video",
+    "id": "bpVideo",
     "fields": [
       {
         "component": "aem-content",

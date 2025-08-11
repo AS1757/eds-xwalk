@@ -58,7 +58,8 @@
         "video",
         "form",
         "embed-adaptive-form",
-        "questionnaire"
+        "questionnaire",
+        "bpVideo"
       ]
     }
   ]
