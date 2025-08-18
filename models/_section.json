@@ -59,7 +59,8 @@
         "form",
         "embed-adaptive-form",
         "questionnaire",
-        "videoplayer"
+        "videoplayer",
+        "charts"
       ]
     }
   ]

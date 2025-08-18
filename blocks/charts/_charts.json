@@ -1,0 +1,72 @@
+{
+  "definitions": [
+    {
+      "title": "Charts",
+      "id": "charts",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Charts",
+              "filter": "charts",
+              "model": "charts"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "charts",
+      "fields": [
+        {
+          "component": "text",
+          "name": "chartConfigPath",
+          "label": "Chart Config Path"
+        },
+        {
+          "component": "text",
+          "name": "chartDataPath",
+          "label": "Chart Data Path"
+        },
+        {
+          "component": "text",
+          "name": "chartTitle",
+          "label": "Chart Title"
+        },
+        {
+          "component": "text",
+          "name": "yAxisLabel",
+          "label": "Y Axis Label"
+        },
+        {
+          "component": "text",
+          "name": "xAxisLabel",
+          "label": "X Axis Label"
+        },
+        {
+          "component": "select",
+          "name": "chartType",
+          "label": "Type of Chart",
+          "options": [
+            {
+              "name": "Bar Chart",
+              "value": "bar"
+            },
+            {
+              "name": "Line Chart",
+              "value": "line"
+            },
+            {
+              "name": "Pie Chart",
+              "value": "pie"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

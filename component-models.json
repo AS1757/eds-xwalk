@@ -185,6 +185,55 @@
     ]
   },
   {
+    "id": "charts",
+    "fields": [
+      {
+        "component": "text",
+        "name": "chartConfigPath",
+        "label": "Chart Config Path"
+      },
+      {
+        "component": "text",
+        "name": "chartDataPath",
+        "label": "Chart Data Path"
+      },
+      {
+        "component": "text",
+        "name": "chartTitle",
+        "label": "Chart Title"
+      },
+      {
+        "component": "text",
+        "name": "yAxisLabel",
+        "label": "Y Axis Label"
+      },
+      {
+        "component": "text",
+        "name": "xAxisLabel",
+        "label": "X Axis Label"
+      },
+      {
+        "component": "select",
+        "name": "chartType",
+        "label": "Type of Chart",
+        "options": [
+          {
+            "name": "Bar Chart",
+            "value": "bar"
+          },
+          {
+            "name": "Line Chart",
+            "value": "line"
+          },
+          {
+            "name": "Pie Chart",
+            "value": "pie"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {
@@ -5061,6 +5110,77 @@
     ]
   },
   {
+    "id": "menu-excel",
+    "fields": [
+      {
+        "component": "text",
+        "name": "path",
+        "value": "",
+        "label": "documentPath",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "menu-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "sub-menu",
+        "label": "sub-menu",
+        "value": "",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "link",
+        "value": "",
+        "label": "link",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "menu",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "value": "",
+        "label": "title",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "navigation",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Dropdown Title",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "container",
+        "name": "container",
+        "label": "Dropdown Items",
+        "valueType": "string",
+        "fields": [
+          {
+            "component": "text",
+            "name": "label",
+            "label": "Label | URL",
+            "valueType": "string",
+            "multi": true
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "questionnaire",
     "fields": [
       {
@@ -5130,6 +5250,18 @@
         "valueType": "string",
         "name": "value",
         "label": "Value",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "simple-text",
+    "fields": [
+      {
+        "component": "text",
+        "name": "message",
+        "label": "Message",
+        "valueType": "string",
         "value": ""
       }
     ]

@@ -24,7 +24,8 @@
       "form",
       "embed-adaptive-form",
       "questionnaire",
-      "videoplayer"
+      "videoplayer",
+      "charts"
     ]
   },
   {
@@ -81,6 +82,12 @@
       "text-input",
       "tnc",
       "wizard"
+    ]
+  },
+  {
+    "id": "menu-items",
+    "components": [
+      "menu-item"
     ]
   },
   {
