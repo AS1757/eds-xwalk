@@ -4,9 +4,11 @@
     "/content/amit-eds-demo/configuration:/.helix/config.json",
     "/content/amit-eds-demo/metadata:/metadata.json",
     "/content/amit-eds-demo/states:/states.json",
-    "/content/amit-eds-demo/questions:/questions.json"
+    "/content/amit-eds-demo/questions:/questions.json",
+    "/content/amit-eds-demo/bar-chart:/bar-chart.json",
+    "/content/amit-eds-demo/line-chart:/line-chart.json",
+    "/content/amit-eds-demo/bar-chart-config:/bar-chart-config.json",
+    "/content/amit-eds-demo/line-chart-config:/line-chart-config.json"
   ],
-  "includes": [
-    "/content/amit-eds-demo/"
-  ]
+  "includes": ["/content/amit-eds-demo/"]
 }
