@@ -9,6 +9,7 @@ import {
   waitForFirstImage,
   loadSection,
   loadSections,
+  loadScript,
   loadCSS,
 } from './aem.js';
 
@@ -42,7 +43,10 @@ export function moveInstrumentation(from, to) {
     to,
     [...from.attributes]
       .map(({ nodeName }) => nodeName)
-      .filter((attr) => attr.startsWith('data-aue-') || attr.startsWith('data-richtext-')),
+      .filter(
+        (attr) =>
+          attr.startsWith('data-aue-') || attr.startsWith('data-richtext-')
+      )
   );
 }
 
@@ -52,7 +56,8 @@ export function moveInstrumentation(from, to) {
 async function loadFonts() {
   await loadCSS(`${window.hlx.codeBasePath}/styles/fonts.css`);
   try {
-    if (!window.location.hostname.includes('localhost')) sessionStorage.setItem('fonts-loaded', 'true');
+    if (!window.location.hostname.includes('localhost'))
+      sessionStorage.setItem('fonts-loaded', 'true');
   } catch (e) {
     // do nothing
   }
@@ -114,6 +119,10 @@ async function loadEager(doc) {
  * @param {Element} doc The container element
  */
 async function loadLazy(doc) {
+  await loadScript(
+    'https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.min.js'
+  );
+
   const main = doc.querySelector('main');
   await loadSections(main);
 
