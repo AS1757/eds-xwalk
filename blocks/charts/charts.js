@@ -141,7 +141,7 @@ export default async function decorate(block) {
 
   if (chartType === 'line') {
     const labels = Array.from(
-      new Set(chartDataJSON.data.map((item) => item.dataset_1))
+      new Set(chartDataJSON.data.map((item) => item.dataset_1)),
     );
 
     console.log(labels);
@@ -208,5 +208,6 @@ export default async function decorate(block) {
     };
   }
 
+  // eslint-disable-next-line no-new, no-undef
   new Chart(ctx, config);
 }
