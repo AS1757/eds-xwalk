@@ -5255,18 +5255,6 @@
     ]
   },
   {
-    "id": "simple-text",
-    "fields": [
-      {
-        "component": "text",
-        "name": "message",
-        "label": "Message",
-        "valueType": "string",
-        "value": ""
-      }
-    ]
-  },
-  {
     "id": "slider",
     "fields": [
       {

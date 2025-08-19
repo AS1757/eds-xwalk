@@ -8,7 +8,8 @@
     "/content/amit-eds-demo/bar-chart:/bar-chart.json",
     "/content/amit-eds-demo/line-chart:/line-chart.json",
     "/content/amit-eds-demo/bar-chart-config:/bar-chart-config.json",
-    "/content/amit-eds-demo/line-chart-config:/line-chart-config.json"
+    "/content/amit-eds-demo/line-chart-config:/line-chart-config.json",
+    "/content/amit-eds-demo/menu-:/menu.json"
   ],
   "includes": ["/content/amit-eds-demo/"]
 }
