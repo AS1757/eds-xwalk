@@ -374,6 +374,20 @@
           },
           {
             "component": "text",
+            "name": "cc",
+            "label": "CC",
+            "valueType": "string",
+            "multi": true
+          },
+          {
+            "component": "text",
+            "name": "bcc",
+            "label": "BCC",
+            "valueType": "string",
+            "multi": true
+          },
+          {
+            "component": "text",
             "name": "subject",
             "label": "Subject",
             "valueType": "string"
@@ -5118,65 +5132,6 @@
         "value": "",
         "label": "documentPath",
         "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "menu-item",
-    "fields": [
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "sub-menu",
-        "label": "sub-menu",
-        "value": "",
-        "multi": false
-      },
-      {
-        "component": "richtext",
-        "name": "link",
-        "value": "",
-        "label": "link",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "menu",
-    "fields": [
-      {
-        "component": "text",
-        "name": "title",
-        "value": "",
-        "label": "title",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "navigation",
-    "fields": [
-      {
-        "component": "text",
-        "name": "title",
-        "label": "Dropdown Title",
-        "valueType": "string",
-        "value": ""
-      },
-      {
-        "component": "container",
-        "name": "container",
-        "label": "Dropdown Items",
-        "valueType": "string",
-        "fields": [
-          {
-            "component": "text",
-            "name": "label",
-            "label": "Label | URL",
-            "valueType": "string",
-            "multi": true
-          }
-        ]
       }
     ]
   },

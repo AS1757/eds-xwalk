@@ -86,12 +86,6 @@
     ]
   },
   {
-    "id": "menu-items",
-    "components": [
-      "menu-item"
-    ]
-  },
-  {
     "id": "questionnaire",
     "components": []
   },
