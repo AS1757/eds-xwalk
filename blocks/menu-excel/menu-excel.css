@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: baseline;
     width: 24%;
     padding: 0.5rem 1rem;
     background-color: #07412c;
@@ -61,6 +61,8 @@
 .main-menu-arrow {
     font-size: 16px;
     margin-left: 8px;
+    position: absolute;
+    right: 35px;
 }
 
 /* Main menu dropdown (floats on top) */
@@ -112,7 +114,7 @@
     position: relative;
     z-index: 10;
     /* Remove flex-grow or wide width */
-    width: 76%; 
+    width: 76%;
 }
 
 /* Each submenu column */
@@ -137,7 +139,8 @@
     height: 4px; /* underline thickness */
     width: 100%;
     background-color: #42771e; /* green color */
-  }
+}
+
 /* Submenu title */
 .submenu-title {
     font-weight: bold;
@@ -159,7 +162,6 @@
     top: 100%;
     left: 0;
     background: white;
-    /* border: 2px solid #144633; */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     padding: 8px 0;
     margin: 0;
@@ -175,37 +177,57 @@
 .submenu-column:hover > ul {
     display: block;
     padding-left: 1rem;
-        padding-right: 1.875rem;
-        box-shadow: -30px 26px 29px -31px rgba(0, 0, 0, .75);
-        height: auto;
-    
+    padding-right: 1.875rem;
+    box-shadow: -30px 26px 29px -31px rgba(0, 0, 0, 0.75);
+    height: auto;
 }
 
 .submenu-column li {
     margin: 4px 0;
-    
-        line-height: 1.4;
-        font-weight: 400;
-        display: block;
-        text-align: left;
-        padding-bottom: 1rem;
-        border: none;
-    
-    
+
+    line-height: 1.4;
+    font-weight: 400;
+    display: block;
+    text-align: left;
+    padding-bottom: 1rem;
+    border: none;
 }
 
 .submenu-column a {
     text-decoration: none;
     font-size: 0.9375rem;
     color: #414042;
-    font-family: "HCo Whitney SSm", sans-serif;
+    font-family: 'HCo Whitney SSm', sans-serif;
 }
 
 .submenu-column a:hover {
     color: #42711e;
 }
 
-/* Rotate arrow on hover */
-.submenu-column:hover .dropdown-arrow {
-    transform: rotate(180deg);
+.dropdown-arrow {
+    font-size: 14px;
+    color: #666;
+    margin-top: 4px;
+    display: block;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.submenu-dropdown {
+    right: 0px;
+}
+
+.main-menu-wrapper .indications-menu-title {
+    font-size: 0.6875rem;
+    line-height: 1.4;
+    font-weight: 400;
+    padding-left: 1rem;
+}
+
+.main-menu-wrapper .label {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 0.5rem 3.125rem 0.5rem 0.9375rem;
 }

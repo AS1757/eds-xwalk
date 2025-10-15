@@ -1,0 +1,22 @@
+<template>
+  <div class="main-menu-wrapper">
+    <span class="indications-menu-title text-small">select the Indication</span>
+    <span class="label">${selectedMain}</span>
+    <!-- this will be updated via JS -->
+    <span class="main-menu-arrow">▶</span>
+    <ul class="main-menu-dropdown">
+      <li data-fly-repeat="grouped">${itemKey}</li>
+    </ul>
+  </div>
+  <div class="submenu-wrapper" data-fly-repeat.menu="grouped">
+    <div class="submenu-column" data-fly-repeat.l2menu="menu">
+      <a class="submenu-title" href="" target="_blank"> ${l2menuKey} </a>
+      <span class="dropdown-arrow">▼</span>
+      <ul class="submenu-dropdown">
+        <li data-fly-repeat.l3menu="l2menu">
+          <a href="${l2menuKey}" target="_blank">${l3menuKey}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</template>
