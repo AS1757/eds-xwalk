@@ -1219,7 +1219,7 @@ var ui = {
       },
     });
     $.ajax({
-      url: 'pages/content/_footer',
+      url: 'pages/content/_footer.html',
       cache: false,
       success: function (result) {
         $('.footer').html(result);
