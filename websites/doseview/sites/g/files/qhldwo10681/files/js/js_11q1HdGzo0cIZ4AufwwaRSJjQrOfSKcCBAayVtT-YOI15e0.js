@@ -1212,7 +1212,7 @@ var ui = {
   },
   loadConstants: function () {
     $.ajax({
-      url: 'pages/content/isi.html',
+      url: 'pages/isi.html',
       cache: false,
       success: function (result) {
         $('.isi').html(result);
