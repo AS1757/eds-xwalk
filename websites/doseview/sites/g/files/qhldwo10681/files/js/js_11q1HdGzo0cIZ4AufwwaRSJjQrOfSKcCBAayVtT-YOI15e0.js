@@ -1212,14 +1212,14 @@ var ui = {
   },
   loadConstants: function () {
     $.ajax({
-      url: 'pages/content/_isi.html',
+      url: 'pages/content/isi.html',
       cache: false,
       success: function (result) {
         $('.isi').html(result);
       },
     });
     $.ajax({
-      url: 'pages/content/_footer.html',
+      url: 'pages/footer.html',
       cache: false,
       success: function (result) {
         $('.footer').html(result);
