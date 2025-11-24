@@ -33,7 +33,7 @@ export default async function decorate(block) {
 
   const mainMenuWrapper = block.querySelector('.main-menu-wrapper');
   const dropdown = mainMenuWrapper.querySelector('.main-menu-dropdown');
-  const submenuWrapper = block.querySelector('.submenu-wrapper');
+  // const submenuWrapper = block.querySelector('.submenu-wrapper');
 
   // Toggle main menu dropdown
   mainMenuWrapper.addEventListener('click', (e) => {
