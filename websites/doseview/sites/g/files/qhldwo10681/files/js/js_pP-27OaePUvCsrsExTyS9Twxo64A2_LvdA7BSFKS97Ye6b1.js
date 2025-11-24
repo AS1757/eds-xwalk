@@ -6657,9 +6657,9 @@ jQuery(function ($) {
     useLoader: !1,
     includeCharts: !1,
     pages: [
-      { id: 'overview', name: 'Overview', file: 'overview' },
-      { id: 'benchmark', name: 'Benchmark', file: 'benchmark' },
-      { id: 'calculator', name: 'Calculator', file: 'calculator' },
+      { id: 'overview', name: 'Overview', file: 'overview.html' },
+      { id: 'benchmark', name: 'Benchmark', file: 'benchmark.html' },
+      { id: 'calculator', name: 'Calculator', file: 'calculator.html' },
     ],
   }),
     $('*[rel-page]').click(function () {
