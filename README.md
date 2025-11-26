@@ -1,9 +1,5 @@
 # Your Project's Title...
-Your project's description...
-
-## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/ > https://main--eds-xwalk--as1757.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/ > https://main--eds-xwalk--as1757.aem.live/
+Otsuka EDS Migration
 
 ## Documentation
 
@@ -18,8 +14,10 @@ Furthremore, we encourage you to watch the recordings of any of our previous pre
 
 ## Prerequisites
 
+- git 
+- nvm
 - nodejs 18.3.x or newer
-- AEM Cloud Service release 2024.8 or newer (>= `17465`)
+- AEM Cloud Service sandbox (release 2024.8 or newer (>= `17465`))
 
 ## Installation
 
@@ -40,3 +38,7 @@ npm run lint
 1. Install the [AEM CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/aem-cli`
 1. Start AEM Proxy: `aem up` (opens your browser at `http://localhost:3000`)
 1. Open the `{repo}` directory in your favorite IDE and start coding :)
+
+## Environments
+- Preview: https://main--{repo}--{owner}.aem.page/ > https://main--eds-xwalk--as1757.aem.page/
+- Live: https://main--{repo}--{owner}.aem.live/ > https://main--eds-xwalk--as1757.aem.live/
