@@ -34,7 +34,8 @@ In order to modify or add text/html on the pages please follow below steps:
 3. Search for the corresponding section in the html file
 4. Add/modify the string 
 
-For example: on https://main--eds-xwalk--as1757.aem.live/websites/bigkidneybigproblem/index.html site, if we want to modify the "Big Kidney Big Problem" button tile to "Big Kidney No Problem !".
+**For example:** on https://main--eds-xwalk--as1757.aem.live/websites/bigkidneybigproblem/index.html site, if we want to modify the "Big Kidney Big Problem" button title to "Big Kidney No Problem !".
+
 <img width="899" height="285" alt="image" src="https://github.com/user-attachments/assets/244f98bd-e1ea-4f35-8fee-5a359e758a12" />
 
 
