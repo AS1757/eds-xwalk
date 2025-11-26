@@ -24,7 +24,7 @@ The existing Otsuka Drupal static sites which do not recieve frequent content up
 - https://www.wild5wellnessprogram.com/
 
 # Pre-requisite to Modify/Add content and assets: Local development set up
-1. Clone and Checkout the Otsuka git repo by opening the terminal in the inteded directory and running the below `git clone https://github.com/AS1757/eds-xwalk.git`
+1. Clone and Checkout the Otsuka git repo by opening the terminal in the intended directory and running the below `git clone https://github.com/AS1757/eds-xwalk.git`
 2. Refer https://github.com/AS1757/eds-xwalk/blob/main/README.md to do the local set up.
 
 # Text in HTML pages.
