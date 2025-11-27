@@ -1,0 +1,161 @@
+/***** Media css for Small Laptops phones *************/
+@media only screen and (max-width: 1300px) {
+  .views-exposed-form .form-wrapper .form-item{ float: right; width: 47%;}
+}
+
+/***** Media css for Small Laptops phones *************/
+@media only screen and (max-width: 991px) {
+    .navbar-toggler{ display: block;}
+    .navbar-toggler:not(:disabled):not(.disabled){ top: 10%;}
+    .main-navbar .navbar-nav {
+        position: absolute;
+        right: 0;
+        width: 300px;
+        background:#d9d9d4;
+    }
+    .banner-heading{ font-size: 20px;}
+    .main-navbar .navbar { position: absolute; right: 0;}
+    .views-exposed-form .form-submit { margin-top: 17%; }
+    .popup-content { max-width: 720px;}
+    .views-exposed-form .form-wrapper .form-item{ margin-right: 2%;}
+    .form--inline .form-item{ padding: 0;}
+    .views-exposed-form label{ margin-top: -33px;}
+}
+
+/***** Media css for Tab phones *************/
+@media only screen and (max-width: 768px) {
+    .site-logo img{ width: 70%;}
+    td { padding: 5px !important;}
+    .footer-links, .footer-logo, .footer-prc {
+        display: inline-block;
+    }
+    table {
+        margin: auto;
+         border-collapse: collapse;
+         overflow-x: auto;
+         display: block;
+         width: fit-content;
+         max-width: 100%;
+         box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1);
+         table-layout: fixed; 
+         width: 100%;
+       }
+       
+       td, th {
+         padding: .5rem;
+       }
+       
+       th {
+         text-align: left;
+         background-color: rgb(190, 220, 250);
+         text-transform: uppercase;
+         padding-top: 1rem;
+         padding-bottom: 1rem;
+         border-bottom: rgb(50, 50, 100) solid 2px;
+         border-top: none;
+       }
+       
+       td {
+         border-bottom: none;
+         color: rgb(20, 20, 20);
+         word-wrap: break-word;
+       }
+       
+       td:first-of-type, th:first-of-type {
+         border-left: none;
+       }
+       
+       td:last-of-type, th:last-of-type {
+         border-right: none;
+       }
+       .form--inline .form-item{ float: none;}  
+       .form-item, .form-actions{ margin-top: 0;}
+       .form-group{ margin-bottom: 0;}
+       .footer-main .footer-links, .footer-main .footer-prc {
+            width: 100%;
+        }
+
+        /* Force table to not be like tables anymore */
+        .table, .table thead, .table tbody, .table th, .table td, .table tr{
+          display: block;
+        }
+
+        /* Hide table headers (but not display: none;, for accessibility) */
+        .table thead tr {
+          position: absolute;
+          top: -9999px;
+          left: -9999px;
+        }
+        
+        .table td, .table td  {
+          /* Behave  like a "row" */
+          border: none;
+          border-bottom: 1px solid #eee;
+          position: relative;
+          padding-left: 45%!important;
+          text-align: left;
+          font-size: 12px;
+        }
+        .study-list .table tr td:first-of-type{ height: 60px;}
+        .outcome01 tr td, .outcome02 tr td{ height: auto; min-height: 60px;}
+
+        .table td:before, .table td:before{
+          /* Now like a table header */
+          position: absolute;
+          /* Top/left values mimic padding */
+          top: 8%;
+          left: 6px;
+          width: 45%;
+          padding-right: 10px;
+          font-weight: bold;
+        }
+        .outcome01 tr td, .outcome02 tr td {
+          width: 100%!important; 
+        }
+        .views-table tr td.views-field-title{ width: 100%; text-align: left; }
+        #sliding-popup {
+          height: 125px!important;
+          padding: 2% 5% 0 5%;
+        }
+        .popup-content { max-width: 720px;}
+        /*
+        Label the data
+        You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+        */
+        .view-csr-summaries td:nth-of-type(1):before { content: "Postings"; }
+        .view-csr-summaries td:nth-of-type(2):before { content: "Description"; }
+
+        .study-list td:nth-of-type(1):before { content: "Active Ingredient/Drug Formulation"; }
+        .study-list td:nth-of-type(2):before { content: "Disease"; }
+        .study-list td:nth-of-type(3):before { content: "Study ID"; }
+        .study-list td:nth-of-type(4):before { content: "Study Phase"; }
+        .study-list td:nth-of-type(5):before { content: "Study Title"; }
+
+        .outcome01 td:nth-of-type(1):before { content: "Title of Proposed Study"; }
+        .outcome01 td:nth-of-type(2):before { content: "Affiliation"; }
+        .outcome01 td:nth-of-type(3):before { content: "Date request received"; }
+        .outcome01 td:nth-of-type(4):before { content: "Date approved"; }
+
+        .outcome02 td:nth-of-type(1):before { content: "Study title"; }
+        .outcome02 td:nth-of-type(2):before { content: "Study ID"; }
+        .outcome02 td:nth-of-type(3):before { content: "Date request received"; }
+        .outcome02 td:nth-of-type(4):before { content: "Reasons for non-disclose"; }
+
+        .statistics-table td:nth-of-type(1):before { content: "Process"; }
+        .statistics-table td:nth-of-type(2):before { content: "Number of projects"; }
+}
+
+
+/***** Media css for small phones *************/
+@media only screen and (max-width: 480px) {
+    .site-logo img{ width: 70%;}
+    .navbar-toggler:not(:disabled):not(.disabled){ top: 8%;}
+    .banner-heading{ font-size: 17px;}
+    .popup-content { max-width: 420px;}
+    .views-exposed-form label { margin-left: 8px; }
+    .views-exposed-form .form-submit { margin-top: 0; }
+    #sliding-popup {
+      height: 150px!important;
+      padding: 2% 5% 0 5%;
+    }
+}
