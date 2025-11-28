@@ -11,10 +11,13 @@
       }
 
       function scrollToElementId(element_id) {
-        $(document).ready(function() {
-          $('html, body').animate({
-            scrollTop: $(element_id).offset().top - getHeaderHeight()
-          }, 500);
+        $(document).ready(function () {
+          $('html, body').animate(
+            {
+              scrollTop: $(element_id).offset().top - getHeaderHeight(),
+            },
+            500
+          );
         });
       }
 
@@ -23,15 +26,18 @@
         scrollToElementId(a);
       }
 
-      $(once('html', ".nav-link, .scroll")).click(function (event) {
+      $(once('html', '.nav-link, .scroll')).click(function (event) {
         let a = $(this).attr('href');
-        let s = a.split("#");
-        if (window.location.pathname === s[0]) {
-          event.preventDefault();
-          scrollToElementId('#' + s[1]);
-        }
+        let s = a.split('#');
+        //  if (window.location.pathname === s[0]) {
+        event.preventDefault();
+        scrollToElementId('#' + s[1]);
+        // }
         if ($(window).width() < 1200) {
-          let $menuCloseBtn = $('.navigation-menu-section-block-wrapper .navbar-toggler', context);
+          let $menuCloseBtn = $(
+            '.navigation-menu-section-block-wrapper .navbar-toggler',
+            context
+          );
           if ($menuCloseBtn.length > 0) {
             if (!$menuCloseBtn.hasClass('collapsed')) {
               $menuCloseBtn.trigger('click');
@@ -41,11 +47,11 @@
         }
       });
 
-      $(window).on('resize', function() {
+      $(window).on('resize', function () {
         if ($(window).width() >= 1200) {
           $('.navbar-collapse.collapse').removeClass('show');
         }
       });
-    }
+    },
   };
 })(jQuery, Drupal);
