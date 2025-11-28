@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html
   lang="en"
   dir="ltr"
@@ -80,7 +80,7 @@
 
       function oneTrustBannerFooterFix() {
         const divSelector = document.querySelector(
-          '#onetrust-button-group-parent'
+          '#onetrust-button-group-parent',
         );
         const elementDiv = document.createElement('div');
         elementDiv.className = 'ontrust_logo';
@@ -88,7 +88,7 @@
           "<div class='green-logo'> onetrust</div><div class='text-logo'>Powered by</div>";
         divSelector.parentNode.insertBefore(
           elementDiv,
-          divSelector.nextSibling
+          divSelector.nextSibling,
         );
 
         document
@@ -105,7 +105,7 @@
         let tabindex = 2;
         document
           .querySelectorAll(
-            '#onetrust-button-group button, #onetrust-button-group input'
+            '#onetrust-button-group button, #onetrust-button-group input',
           )
           .forEach(function (element) {
             element.setAttribute('tabindex', String(tabindex));
@@ -124,10 +124,10 @@
 
       function oneTrustSettingsButtonFix() {
         const acceptBtn = document.getElementById(
-          'accept-recommended-btn-handler'
+          'accept-recommended-btn-handler',
         );
         const rejectBtn = document.getElementsByClassName(
-          'ot-pc-refuse-all-handler'
+          'ot-pc-refuse-all-handler',
         )[0];
         const container =
           document.getElementsByClassName('ot-btn-container')[0];
@@ -140,18 +140,18 @@
           'focus',
           function (e) {
             const focusableElements = modelElement.querySelectorAll(
-              'a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, *[tabindex], *[contenteditable]'
+              'a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, *[tabindex], *[contenteditable]',
             );
             if (!Array.from(focusableElements).includes(e.target)) {
               Array.from(focusableElements)[0].focus();
             }
           },
-          true
+          true,
         );
         if (Drupal.tabbingManager) {
           Drupal.tabbingManager.constrain(
             document.getElementById('onetrust-banner-sdk'),
-            { trapFocus: true }
+            { trapFocus: true },
           );
         }
       }
@@ -699,7 +699,10 @@
                         <div class="node__content">
                           <p>
                             <input
-                              onclick="history.go(-1); return true;"
+                              onclick="
+                                history.go(-1);
+                                return true;
+                              "
                               type="button"
                               value="◄ Back"
                             />
