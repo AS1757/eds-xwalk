@@ -1,0 +1,1 @@
+!function(){var e;e=jQuery,Drupal.behaviors.datepicker={attach:function(a){e(once("datepicker",".hasDatepicker",a)).each((function(){var a=e(this);a.attr("autocomplete","off"),a.datepicker("option","dayNamesMin",["S","M","T","W","T","F","S"]),a.datepicker("option","changeMonth",!1),a.datepicker("option","changeYear",!1)}))}}}();

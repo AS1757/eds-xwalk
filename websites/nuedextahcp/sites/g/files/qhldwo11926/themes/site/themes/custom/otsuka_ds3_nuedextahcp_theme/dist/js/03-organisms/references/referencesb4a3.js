@@ -1,0 +1,1 @@
+!function(){var e;e=jQuery,Drupal.behaviors.references={attach:function(n){var r=e(".main-content",n);once("referencesReplace",".references").forEach((function(c){e(c,n).appendTo(r)}))}}}();

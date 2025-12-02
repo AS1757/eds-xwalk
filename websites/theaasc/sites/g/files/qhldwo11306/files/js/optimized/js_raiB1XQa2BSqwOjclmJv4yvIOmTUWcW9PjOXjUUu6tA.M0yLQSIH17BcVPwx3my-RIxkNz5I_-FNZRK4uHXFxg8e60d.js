@@ -1,0 +1,1 @@
+!function(){var t;t=jQuery,Drupal.behaviors.error404={attach:function(o){var r=window.location.href,e=localStorage.getItem("otskHistoryCurrent")?localStorage.getItem("otskHistoryCurrent"):r;setTimeout((function(){localStorage.setItem("otskHistoryCurrent",r),localStorage.setItem("otskHistoryPrevious",e)}),1),/\/hcp/i.test(e)&&t(".404 .link__cta",o).attr("href","/hcp")}}}();

@@ -1,0 +1,1 @@
+!function(){var n,t,a;n=jQuery,t=Drupal,a=once,t.behaviors.niceTabs={attach:function(t){var e=new Event("videoStop",{bubbles:!0,cancelable:!0});n(a("nice-tabs",".nice_tabs",t)).each((function(){var t=n(this);n('button[data-bs-toggle="tab"]',t).on("hidden.bs.tab",(function(){document.dispatchEvent(e)}))}))}}}();

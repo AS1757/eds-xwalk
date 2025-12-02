@@ -1,0 +1,1 @@
+!function(){var e;e=jQuery,Drupal.behaviors.references={attach:function(n){e(once("references",".references",n)).each((function(){var n=e(this);e(".references__cta",n).on("click",(function(){var n=e(this);n.hasClass("btn-expand")?n.next().focus():n.prev().focus()}))}))}}}();

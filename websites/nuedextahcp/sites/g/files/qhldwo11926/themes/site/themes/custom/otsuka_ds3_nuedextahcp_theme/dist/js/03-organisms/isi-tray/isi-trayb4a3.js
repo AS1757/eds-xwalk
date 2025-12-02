@@ -1,0 +1,1 @@
+!function(){var n;n=jQuery,Drupal.behaviors.isiTrayModalOpen={attach:function(i){once("isiTrayModalOpen",".modal").forEach((function(o){n(o,i).on("show.bs.modal",(function(){var i=window.innerWidth-document.documentElement.clientWidth;n(".isi-tray").css("padding-right",i)})),n(o,i).on("hidden.bs.modal",(function(){n(".isi-tray").css("padding-right",0)}))}))}}}();

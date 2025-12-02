@@ -1,0 +1,1 @@
+!function(){var a;a=jQuery,Drupal.behaviors.CardC={attach:function(c){var o=a(".card-c--expandable:not(.card-c--group)",c);a(once("cardC",o)).each((function(){var c=a(this);a(c,".card-c__cta").on("click",(function(){c.hasClass("show")?c.removeClass("show"):(o.removeClass("show"),c.addClass("show"))}))}))}}}();
