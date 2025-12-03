@@ -1,5 +1,5 @@
 # Your Project's Title...
-Otsuka EDS Migration 2
+Otsuka EDS Migration
 
 ## Documentation
 
