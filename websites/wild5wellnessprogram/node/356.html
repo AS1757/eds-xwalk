@@ -1,0 +1,736 @@
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'html' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ html--node--356.html.twig
+   ▪️ html--node--%.html.twig
+   ▪️ html--node.html.twig
+   ✅ html.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/layout/html.html.twig' -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="019168b8-ea7a-7262-83ba-01465eb8ef56"></script>
+<script type="text/javascript" defer="defer">
+  function waitForElm(selector) {
+    return new Promise(function (resolve) {
+      if (document.querySelector(selector)) {
+        return resolve(document.querySelector(selector));
+      }
+ 
+      const observer = new MutationObserver(function (mutations) {
+        if (document.querySelector(selector)) {
+          observer.disconnect();
+          resolve(document.querySelector(selector));
+        }
+      });
+ 
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+    });
+  }
+ 
+  function oneTrustAddFont() {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'https://fonts.googleapis.com/css?family=Montserrat';
+    document.getElementsByTagName('HEAD')[0].appendChild(link);
+  }
+ 
+  function addMeta() {
+    const meta = document.createElement('meta');
+    meta.name = 'viewport';
+    meta.content = 'width=device-width, initial-scale=1.0';
+    document.getElementsByTagName('head')[0].appendChild(meta);
+  }
+ 
+  function oneTrustBannerFooterFix() {
+    const divSelector = document.querySelector('#onetrust-button-group-parent');
+    const elementDiv = document.createElement('div');
+    elementDiv.className = 'ontrust_logo';
+    elementDiv.innerHTML = "<div class='green-logo'> onetrust</div><div class='text-logo'>Powered by</div>";
+    divSelector.parentNode.insertBefore(elementDiv, divSelector.nextSibling);
+ 
+    document.getElementsByClassName('ot-pc-footer-logo')[0].children[0].removeAttribute('href');
+  }
+ 
+  function oneTrustBannerOtherFix() {
+    var p = document.querySelectorAll('.ot-accordion-layout p');
+    Array.prototype.forEach.call(p, function(el) {
+        el.innerHTML = el.innerHTML.replace(/&nbsp;/gi, '');
+    });
+ 
+    let tabindex = 2;
+    document.querySelectorAll('#onetrust-button-group button, #onetrust-button-group input').forEach(function (element) {
+      element.setAttribute('tabindex', String(tabindex));
+      if (tabindex === 2) {
+        tabindex = 1;
+      } else if (tabindex === 1) {
+        tabindex = 3;
+      } else {
+        tabindex++;
+      }
+    });
+    document.querySelector('#onetrust-policy-text a').setAttribute('tabindex', 1);
+  }
+ 
+  function oneTrustSettingsButtonFix() {
+    const acceptBtn = document.getElementById('accept-recommended-btn-handler');
+    const rejectBtn = document.getElementsByClassName('ot-pc-refuse-all-handler')[0];
+    const container = document.getElementsByClassName('ot-btn-container')[0];
+    container.prepend(acceptBtn, rejectBtn);
+  }
+ 
+  function oneTrustSettingsOtherFix() {
+    const modelElement = document.getElementById('onetrust-pc-sdk');
+    document.addEventListener('focus', function (e) {
+      const focusableElements = modelElement.querySelectorAll('a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, *[tabindex], *[contenteditable]');
+      if (!Array.from(focusableElements).includes(e.target)) {
+        Array.from(focusableElements)[0].focus();
+      }
+    }, true);
+  }
+ 
+  oneTrustAddFont();
+  addMeta();
+ 
+  document.addEventListener('DOMContentLoaded', function () {
+    waitForElm('#onetrust-banner-sdk').then(function () {
+      oneTrustBannerFooterFix();
+      oneTrustBannerOtherFix();
+    });
+ 
+    waitForElm('#onetrust-pc-sdk').then(function () {
+      oneTrustSettingsButtonFix();
+      // oneTrustSettingsOtherFix();
+    });
+  });
+</script>
+<script></script>
+<link rel="icon" href="../themes/custom/wild5_theme/favicon.png" type="image/png" />
+<link rel="canonical" href="../mindfulness.html" />
+<link rel="shortlink" href="356.html" />
+<script src="../sites/default/files/google_tag/default/google_tag.scripte74c.js?t36o7l" defer></script>
+
+    <title>Mindfulness | WILD 5</title>
+    <link rel="stylesheet" media="all" href="../sites/default/files/css/css_z5nCDfrxBK_o2uteI4x3iW-ZoQ4Ty4J4h475cwbpgzI7e91.css?delta=0&amp;language=en&amp;theme=wild5_theme&amp;include=eJx1kF2OwzAIhC-Un6eeJ8I2dVDBWIZ0N3v6dRW1Vbbat2G-QYyIDGb7HMBwiIe-Er-0oBlktOdcNHWmDbtqAkw_OAgmgseWY5siVCctg7ptN1hqozvEfYkqlQmKL0f6iaMsUGmo0CA3qKvNqW0VeHo701bqFphsxTTYbo5y1P0iTpfFVxScA2u8TVHr3iivfmKZNQCP5jtTySckWLbpqtqbf_qseaTy6bvWk_mq2u-LaPkHrth0DFDKn1vvhOP3uXnD3H_ZNyFhG4O6q_wCTmum7w" />
+<link rel="stylesheet" media="all" href="../sites/default/files/css/css_E4mYpIM_F9HTUW15UXCLjQ6k_LWlpiCcF3AhWHq_uEE63af.css?delta=1&amp;language=en&amp;theme=wild5_theme&amp;include=eJx1kF2OwzAIhC-Un6eeJ8I2dVDBWIZ0N3v6dRW1Vbbat2G-QYyIDGb7HMBwiIe-Er-0oBlktOdcNHWmDbtqAkw_OAgmgseWY5siVCctg7ptN1hqozvEfYkqlQmKL0f6iaMsUGmo0CA3qKvNqW0VeHo701bqFphsxTTYbo5y1P0iTpfFVxScA2u8TVHr3iivfmKZNQCP5jtTySckWLbpqtqbf_qseaTy6bvWk_mq2u-LaPkHrth0DFDKn1vvhOP3uXnD3H_ZNyFhG4O6q_wCTmum7w" />
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="../sites/default/files/css/css_zjWJmt-AxQVTfx4aTB1Zjb-VzORo8WyR9QjO8Kc0z2Ief59.css?delta=3&amp;language=en&amp;theme=wild5_theme&amp;include=eJx1kF2OwzAIhC-Un6eeJ8I2dVDBWIZ0N3v6dRW1Vbbat2G-QYyIDGb7HMBwiIe-Er-0oBlktOdcNHWmDbtqAkw_OAgmgseWY5siVCctg7ptN1hqozvEfYkqlQmKL0f6iaMsUGmo0CA3qKvNqW0VeHo701bqFphsxTTYbo5y1P0iTpfFVxScA2u8TVHr3iivfmKZNQCP5jtTySckWLbpqtqbf_qseaTy6bvWk_mq2u-LaPkHrth0DFDKn1vvhOP3uXnD3H_ZNyFhG4O6q_wCTmum7w" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/356","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","themeUrl":"themes\/custom\/wild5_theme"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"clientside_validation_jquery":{"validate_all_ajax_forms":2,"force_validate_on_blur":false,"force_html5_validation":false,"messages":{"required":"This field is required.","remote":"Please fix this field.","email":"Please enter a valid email address.","url":"Please enter a valid URL.","date":"Please enter a valid date.","dateISO":"Please enter a valid date (ISO).","number":"Please enter a valid number.","digits":"Please enter only digits.","equalTo":"Please enter the same value again.","maxlength":"Please enter no more than {0} characters.","minlength":"Please enter at least {0} characters.","rangelength":"Please enter a value between {0} and {1} characters long.","range":"Please enter a value between {0} and {1}.","max":"Please enter a value less than or equal to {0}.","min":"Please enter a value greater than or equal to {0}.","step":"Please enter a multiple of {0}."}},"otsuka_focus_manager":{"selectors":["#onetrust-banner-sdk",".modal[data-bs-focus=\u0022false\u0022]",".otsuka-pcm-consent-overlay","#onetrust-pc-sdk",".external-link-popup"]},"privacy_compliant_media_settings":{"enabled":1,"general":{"error_cmp_not_found":"Consent management is currently disabled, website functionality may be affected. Please try reloading the page."},"youtube":{"enabled":1,"cat_id":"C0012","dependent_cat_id":"C0004","modal":{"description":"By clicking \u0027Accept\u0027, you will enable functional cookies that are necessary for the video\u0027s playback on this platform. These cookies can be reviewed \u003Ca  href=\u0022javascript:OneTrust.ToggleInfoDisplay();\u0022\u003Ehere\u003C\/a\u003E and adjusted at any time by clicking the shield above. Want to know more? View our \u003Ca target=\u0022_blank\u0022 href=\u0022https:\/\/www.otsuka-us.com\/privacy-policy\u0022\u003EPrivacy Notice\u003C\/a\u003E.\r\n\u003Ca class=\u0022otsuka-pcm-consent-link\u0022 href=\u0022javascript:OneTrust.ToggleInfoDisplay();\u0022 role=\u0022button\u0022 aria-label=\u0022Learn more about cookies\u0022\u003EPrivacy Notice\u003C\/a\u003E","consent_label":"Accept","morelink_label":"","morelink_url":""},"overlay_image":null},"vimeo":{"enabled":1,"cat_id":"C0008","dependent_cat_id":"C0004","modal":{"description":"By clicking \u0027Accept\u0027, you will enable functional cookies that are necessary for the video\u0027s playback on this platform. These cookies can be reviewed \u003Ca  href=\u0022javascript:OneTrust.ToggleInfoDisplay();\u0022\u003Ehere\u003C\/a\u003E and adjusted at any time by clicking the shield above. Want to know more? View our \u003Ca target=\u0022_blank\u0022 href=\u0022https:\/\/www.otsuka-us.com\/privacy-policy\u0022\u003EPrivacy Notice\u003C\/a\u003E.\r\n\u003Ca class=\u0022otsuka-pcm-consent-link\u0022 href=\u0022javascript:OneTrust.ToggleInfoDisplay();\u0022 role=\u0022button\u0022 aria-label=\u0022Learn more about cookies\u0022\u003EPrivacy Notice\u003C\/a\u003E","consent_label":"Accept","morelink_label":"","morelink_url":""},"overlay_image":null},"buzzsprout_podcasts":{"enabled":1,"cat_id":"C0002","modal":{"description":"To start your podcast we need your permission to contact Buzzsprout. This allows us to place a podcast player widget on the page.","consent_label":"Allow Buzzsprout player","morelink_label":"","morelink_url":""},"overlay_image":null},"orbita_live_chat":{"enabled":1,"cat_id":"C0002","widget":{"wrapper_id":"chatbot-wrapper","html":"\u003Cdiv class=\u0022with-default-orbita-widget\u0022\u003E\r\n  \u003Cbutton class=\u0022chat-widget\u0022 aria-label=\u0022Show Chatbot\u0022\u003E\r\n    \u003Cdiv\u003E\r\n      \u003Cdiv class=\u0022chat-bubble\u0022\u003E\u003C\/div\u003E\r\n      \u003Cp\u003EChat\u003C\/p\u003E\r\n    \u003C\/div\u003E\r\n  \u003C\/button\u003E\r\n\u003C\/div\u003E","css":""},"modal":{"description":"By clicking \u0027Accept\u0027, you will enable functional cookies that are necessary for the chatbot functionality on this platform. These cookies can be reviewed \u003Ca  href=\u0022javascript:OneTrust.ToggleInfoDisplay();\u0022\u003Ehere\u003C\/a\u003E and adjusted at any time by clicking the shield above. Want to know more? View our \u003Ca target=\u0022_blank\u0022 href=\u0022https:\/\/www.otsuka-us.com\/privacy-policy\u0022\u003EPrivacy Notice\u003C\/a\u003E.","consent_label":"Accept","morelink_label":"","morelink_url":""}}},"user":{"uid":0,"permissionsHash":"378392df6b4d06e19554f70c8c4fe1e060968246d20b848d955979dbabff276b"}}</script>
+<script src="../sites/default/files/js/js_Z44uNPXUtJZz1TrWGXizT05Tm7c-_q5WOHoRbYNrlnkb088.js?scope=header&amp;delta=0&amp;language=en&amp;theme=wild5_theme&amp;include=eJx9yTsOwyAMANAL0TD1PJZLXGrVHxRMI24fKZm6ZH3Po48vwtvL6KBoWGnLbBzLScmvbxv_sEwork0YLUBpZcz3nXaW9QnxIaVcxV8ojx5T2OpfKdlYwtsBwE84EQ"></script>
+<script src="https://unpkg.com/tabbable%406.3.0/dist/index.umd.js"></script>
+<script src="https://unpkg.com/focus-trap%407.6.6/dist/focus-trap.umd.js"></script>
+<script src="../sites/default/files/js/js_pbI9SxZkFJTaPrCvG87IWtwl9w4Mqg_fiu8hguxAds463ed.js?scope=header&amp;delta=3&amp;language=en&amp;theme=wild5_theme&amp;include=eJx9yTsOwyAMANAL0TD1PJZLXGrVHxRMI24fKZm6ZH3Po48vwtvL6KBoWGnLbBzLScmvbxv_sEwork0YLUBpZcz3nXaW9QnxIaVcxV8ojx5T2OpfKdlYwtsBwE84EQ"></script>
+
+  </head>
+  <body class="path-node page-node-type-page">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FRXFB8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+
+
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'page' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ page--node--356.html.twig
+   ▪️ page--node--%.html.twig
+   ▪️ page--node.html.twig
+   ▪️ page--node.html.twig
+   ▪️ page--page.html.twig
+   ✅ page.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/layout/page.html.twig' -->
+
+  <div class="page-container" id="page-container">
+        
+<header id="section-header" role="banner" class="header position-fixed">
+  <div id="header" class="container-fluid region--header">
+          <nav class="navbar navbar-expand-md navbar-light bg-light template--menu-top">
+        <button class="navbar-toggler collapsed position-absolute" type="button" data-toggle="collapse" data-target="#navbar-header"
+                aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-text">MENU</span>
+        </button>
+        
+
+
+
+
+
+  <div class="region region-header-logo clearfix">
+  <!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ block--header-logo.html.twig
+   ▪️ block--wild5-theme-branding.html.twig
+   ✅ block--system-branding-block.html.twig
+   ▪️ block--system.html.twig
+   ▪️ block.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/block/block--system-branding-block.html.twig' --><div id="block-wild5-theme-branding" class="block block-system block-system-branding-block"><a href="../index.html" rel="home" class="site-logo"><img src="../themes/custom/wild5_theme/logo.svg" alt="Home" class="template--logo-dark" /><img src="../themes/custom/wild5_theme/assets/build/img/logo_white.svg" alt="Home" class="template--logo-white"/></a></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/block/block--system-branding-block.html.twig' -->  </div>
+
+
+
+
+        <div role="navigation" class="collapse navbar-collapse ml-auto" id="navbar-header">
+          
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ region--header-nav.html.twig
+   ✅ region.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/region/region.html.twig' -->
+
+
+
+  <div class="region region-header-nav clearfix">
+  <!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ block--header-nav.html.twig
+   ▪️ block--main.html.twig
+   ▪️ block--system-menu-block--top.html.twig
+   ✅ block--system-menu-block.html.twig
+   ▪️ block--system.html.twig
+   ▪️ block.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/block/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-main-menu" id="block-main" class="block block-menu navigation menu--top"><h2 class="visually-hidden" id="block-main-menu">Top</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu__top' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ menu--top.html.twig
+   ▪️ menu--top--header-nav.html.twig
+   ✅ menu.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/navigation/menu.html.twig' --><ul block="block-main" region="header_nav" class="nav navbar-nav"><li class="nav-item menu-item--expanded dropdown"><a href="#" target="_self" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true"><span>About WILD 5</span></a><ul class="dropdown-menu"><li class="dropdown-item"><a href="../wild5-overview.html" target="_self" data-drupal-link-system-path="node/421"><span>WILD 5 Overview</span></a></li><li class="dropdown-item"><a href="../Research-Behind-WILD5.html" target="_self" data-drupal-link-system-path="node/426"><span>Research behind WILD 5</span></a></li><li class="dropdown-item"><a href="../who-created.html" target="_self" data-drupal-link-system-path="who-created"><span>Who created WILD 5?</span></a></li><li class="dropdown-item"><a href="../faq.html" target="_self" data-drupal-link-system-path="node/416"><span>FAQs</span></a></li></ul></li><li class="nav-item menu-item--expanded active dropdown"><a href="#" target="_self" class="nav-link active dropdown-toggle" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true"><span>Wellness Practices</span></a><ul class="dropdown-menu"><li class="dropdown-item"><a href="../exercise.html" target="_self" data-drupal-link-system-path="node/366"><span>Exercise</span></a></li><li class="dropdown-item active"><a href="../mindfulness.html" target="_self" class="active is-active" data-drupal-link-system-path="node/356" aria-current="page"><span>Mindfulness</span></a></li><li class="dropdown-item"><a href="../sleep.html" target="_self" data-drupal-link-system-path="node/361"><span>Sleep</span></a></li><li class="dropdown-item"><a href="../social-connectedness.html" target="_self" data-drupal-link-system-path="node/171"><span>Social Connectedness</span></a></li><li class="dropdown-item"><a href="../nutrition.html" target="_self" data-drupal-link-system-path="node/351"><span>Nutrition</span></a></li><li class="dropdown-item"><a href="../hero-exercises.html" target="_self" data-drupal-link-system-path="node/336"><span>HERO Exercises</span></a></li></ul></li><li class="nav-item"><a href="../contact-us.html" target="_self" class="nav-link" data-drupal-link-system-path="webform/contact_us"><span>Contact Us</span></a></li></ul><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/navigation/menu.html.twig' --></nav><!-- END OUTPUT from 'themes/contrib/classy/templates/block/block--system-menu-block.html.twig' --><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ block--header-nav.html.twig
+   ▪️ block--login.html.twig
+   ▪️ block--system-menu-block--log-in.html.twig
+   ✅ block--system-menu-block.html.twig
+   ▪️ block--system.html.twig
+   ▪️ block.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/block/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-login-menu" id="block-login" class="block block-menu navigation menu--log-in"><h2 class="visually-hidden" id="block-login-menu">Log in</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu__log_in' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ menu--log-in.html.twig
+   ▪️ menu--log-in--header-nav.html.twig
+   ✅ menu.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/navigation/menu.html.twig' --><ul block="block-login" region="header_nav" class="nav navbar-nav"><li class="nav-item"><a href="../user/login.html" target="_self" class="nav-link" data-drupal-link-system-path="user/login"><span>Log in</span></a></li><li class="nav-item"><a href="../user/register.html" target="_self" class="btn btn-primary btn-sm nav-link btn btn-primary btn-sm" data-drupal-link-system-path="user/register"><span>Create Account</span></a></li></ul><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/navigation/menu.html.twig' --></nav><!-- END OUTPUT from 'themes/contrib/classy/templates/block/block--system-menu-block.html.twig' -->  </div>
+
+
+
+
+        </div>
+      </nav>
+      </div>
+      
+
+
+
+
+  <style>
+    @media (max-width: 767px) {
+      body {
+        padding-top: 120px;
+      }
+
+      header.header {
+        box-shadow: inherit;
+      }
+    }
+  </style>
+
+  <div class="region region-header-bottom clearfix">
+    <div class="container-fluid d-md-none"><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ block--header-bottom.html.twig
+   ▪️ block--login-2.html.twig
+   ▪️ block--system-menu-block--log-in.html.twig
+   ✅ block--system-menu-block.html.twig
+   ▪️ block--system.html.twig
+   ▪️ block.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/block/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-login-2-menu" id="block-login-2" class="block block-menu navigation menu--log-in"><h2 class="visually-hidden" id="block-login-2-menu">Log in</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu__log_in' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ menu--log-in.html.twig
+   ▪️ menu--log-in--header-bottom.html.twig
+   ✅ menu.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/navigation/menu.html.twig' --><ul block="block-login-2" region="header_bottom" class="nav navbar-nav"><li class="nav-item"><a href="../user/login.html" target="_self" class="nav-link" data-drupal-link-system-path="user/login"><span>Log in</span></a></li><li class="nav-item"><a href="../user/register.html" target="_self" class="btn btn-primary btn-sm nav-link btn btn-primary btn-sm" data-drupal-link-system-path="user/register"><span>Create Account</span></a></li></ul><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/navigation/menu.html.twig' --></nav><!-- END OUTPUT from 'themes/contrib/classy/templates/block/block--system-menu-block.html.twig' --></div>  </div>
+
+
+
+
+  </header>
+
+    <main role="main" id="main-content">
+                    <div class="layout--content-highlighted">
+          
+
+
+
+
+
+  <div class="region region-highlighted clearfix">
+  <!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ block--highlighted.html.twig
+   ▪️ block--wild5-theme-messages.html.twig
+   ✅ block--system-messages-block.html.twig
+   ▪️ block--system.html.twig
+   ▪️ block.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/stable/templates/block/block--system-messages-block.html.twig' --><div data-drupal-messages-fallback class="hidden"></div><!-- END OUTPUT from 'themes/contrib/stable/templates/block/block--system-messages-block.html.twig' -->  </div>
+
+
+
+
+        </div>
+                 <div class="layout--content">
+          
+
+
+
+
+
+  <div class="region region-content clearfix">
+  <!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ block--content.html.twig
+   ▪️ block--wild5-theme-content.html.twig
+   ▪️ block--system-main-block.html.twig
+   ▪️ block--system.html.twig
+   ✅ block.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/block/block.html.twig' --><div id="block-wild5-theme-content" class="block block-system block-system-main-block"><!-- THEME DEBUG --><!-- THEME HOOK: 'node' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ node--mindfulness.html.twig
+   ▪️ node--356--full.html.twig
+   ▪️ node--356.html.twig
+   ▪️ node--page--full.html.twig
+   ▪️ node--page.html.twig
+   ▪️ node--full.html.twig
+   ✅ node.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/content/node.html.twig' --><article data-history-node-id="356" about="/mindfulness" typeof="schema:WebPage" class="node node--type-page node--view-mode-full"><!-- THEME DEBUG --><!-- THEME HOOK: 'rdf_metadata' --><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/misc/rdf-metadata.html.twig' --><span property="schema:name" content="Mindfulness" class="rdf-meta hidden"></span><!-- END OUTPUT from 'themes/contrib/classy/templates/misc/rdf-metadata.html.twig' --><div class="node__content"><!-- THEME DEBUG --><!-- THEME HOOK: 'links__node' --><!-- FILE NAME SUGGESTIONS:
+   ✅ links--node.html.twig
+   ✅ links--node.html.twig
+   ▪️ links.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/content/links--node.html.twig' --><!-- END OUTPUT from 'themes/contrib/classy/templates/content/links--node.html.twig' --><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--node--field-content--page.html.twig
+   ▪️ field--node--field-content.html.twig
+   ▪️ field--node--page.html.twig
+   ▪️ field--field-content.html.twig
+   ▪️ field--entity-reference-revisions.html.twig
+   ✅ field.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><div  class="field field-name-field-content field-type-entity-reference-revisions field-label-hidden"><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'paragraph' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ paragraph--hero-banner--default.html.twig
+   ✅ paragraph--hero-banner.html.twig
+   ▪️ paragraph--default.html.twig
+   ▪️ paragraph.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/paragraph/paragraph--hero-banner.html.twig' --><div class="paragraph paragraph--type--hero-banner paragraph--view-mode--default hero-banner-mindfulness bg-dark" id="paragraph-246"><div class="container"><div class="row"><div class="col"><div class="hero-banner--content"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--paragraph--field-subtitle--hero-banner.html.twig
+   ▪️ field--paragraph--field-subtitle.html.twig
+   ▪️ field--paragraph--hero-banner.html.twig
+   ▪️ field--field-subtitle.html.twig
+   ▪️ field--string.html.twig
+   ✅ field.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><div  class="field field-name-field-subtitle field-type-string field-label-hidden"><div class="field--item">WILD 5 Practice</div></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--paragraph--field-title--hero-banner.html.twig
+   ▪️ field--paragraph--field-title.html.twig
+   ▪️ field--paragraph--hero-banner.html.twig
+   ▪️ field--field-title.html.twig
+   ▪️ field--string.html.twig
+   ✅ field.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><div  class="field field-name-field-title field-type-string field-label-hidden"><div class="field--item">Mindfulness</div></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --></div></div></div></div><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--paragraph--field-image--hero-banner.html.twig
+   ▪️ field--paragraph--field-image.html.twig
+   ▪️ field--paragraph--hero-banner.html.twig
+   ▪️ field--field-image.html.twig
+   ▪️ field--entity-reference.html.twig
+   ✅ field.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><div  class="field field-name-field-image field-type-entity-reference field-label-hidden"><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'media' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ media--source-image.html.twig
+   ▪️ media--image--hero-banner.html.twig
+   ▪️ media--image.html.twig
+   ▪️ media--hero-banner.html.twig
+   ✅ media.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --><article class="media media--type-image media--view-mode-hero-banner"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--media--field-media-image--image--hero-banner.html.twig
+   ▪️ field--media--field-media-image--image.html.twig
+   ▪️ field--media--field-media-image--hero-banner.html.twig
+   ▪️ field--media--field-media-image.html.twig
+   ▪️ field--media--image--hero-banner.html.twig
+   ▪️ field--media--image.html.twig
+   ▪️ field--field-media-image--hero-banner.html.twig
+   ▪️ field--field-media-image.html.twig
+   ▪️ field--image.html.twig
+   ✅ field.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><div  class="field field-name-field-media-image field-type-image field-label-visually_hidden"><div class="field__label visually-hidden">Image</div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'responsive_image_formatter' --><!-- BEGIN OUTPUT from 'themes/contrib/stable/templates/field/responsive-image-formatter.html.twig' --><!-- THEME DEBUG --><!-- THEME HOOK: 'responsive_image' --><!-- BEGIN OUTPUT from 'themes/contrib/stable/templates/field/responsive-image.html.twig' --><picture><source srcset="/sites/default/files/styles/1440x483/public/2022-02/AdobeStock_286663433.jpeg?itok=CaTGqyh- 1x, https://www.wild5wellnessprogram.com/sites/default/files/styles/1440x483_2x/public/2022-02/AdobeStock_286663433.jpeg?itok=XeoazN7q 2x" media="(min-width: 769px)" type="image/jpeg" width="1440" height="483"/><source srcset="/sites/default/files/styles/768x403/public/2022-02/AdobeStock_286663433.jpeg?itok=ZyF8auJC 1x, /sites/default/files/styles/768x403_2x/public/2022-02/AdobeStock_286663433.jpeg?itok=CKVCUieY 2x" media="(max-width: 768.98px)" type="image/jpeg" width="768" height="403"/><!-- THEME DEBUG --><!-- THEME HOOK: 'image' --><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/image.html.twig' --><img loading="eager" width="1440" height="483" src="../sites/default/files/styles/1440x483/public/2022-02/AdobeStock_2866634335ced.jpg?itok=CaTGqyh-" alt="Woman with eyes closed" typeof="foaf:Image" /><!-- END OUTPUT from 'themes/contrib/classy/templates/field/image.html.twig' --></picture><!-- END OUTPUT from 'themes/contrib/stable/templates/field/responsive-image.html.twig' --><!-- END OUTPUT from 'themes/contrib/stable/templates/field/responsive-image-formatter.html.twig' --></div></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --></article><!-- END OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --></div></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/paragraph/paragraph--hero-banner.html.twig' --></div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'paragraph' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ paragraph--text--default.html.twig
+   ✅ paragraph--text.html.twig
+   ▪️ paragraph--default.html.twig
+   ▪️ paragraph.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/paragraph/paragraph--text.html.twig' --><section class="paragraph paragraph--type--text paragraph--view-mode--default template--paragraph-frame mt-7 mb-7 pt-3 pb-3" id="paragraph-251"><div class="container"><div class="row"><div class="col"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--paragraph--field-text--text.html.twig
+   ▪️ field--paragraph--field-text.html.twig
+   ▪️ field--paragraph--text.html.twig
+   ▪️ field--field-text.html.twig
+   ✅ field--text-long.html.twig
+   ▪️ field.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/field--text-long.html.twig' --><div  class="clearfix text-formatted field field-name-field-text field-type-text-long field-label-hidden"><div class="field--item"><h2 class="mb-4">Mindfulness means focusing your attention on the present moment without judgment.</h2><p class="mb-4">You may have had the experience of driving your car and arriving at your destination without remembering how you got there. Or there may be times when you realize your plate is empty, shortly after you sit down to eat, but you have no memory of eating - it’s as if you’re on “autopilot.” When you’re on autopilot, you miss out on living your life to the fullest.</p><p class="mb-5">Mindfulness is the opposite of this mindless, autopilot state. With mindfulness, you pay attention to your thoughts, emotions, and body without judging or analyzing them.</p><h2 class="mb-3">Research shows that mindfulness can help you:</h2><ul><li>Lower your stress</li><li>Improve your mood and overall well-being</li><li>Improve your memory and help focus</li><li>Strengthen your immune system</li><li>Lower inflammation</li></ul></div></div><!-- END OUTPUT from 'themes/contrib/classy/templates/field/field--text-long.html.twig' --></div></div></div></section><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/paragraph/paragraph--text.html.twig' --></div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'paragraph' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ paragraph--text--default.html.twig
+   ✅ paragraph--text.html.twig
+   ▪️ paragraph--default.html.twig
+   ▪️ paragraph.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/paragraph/paragraph--text.html.twig' --><section class="paragraph paragraph--type--text paragraph--view-mode--default bg-semi-yellow mb-5 pt-5 pb-5" id="paragraph-256"><div class="container"><div class="row"><div class="col"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--paragraph--field-text--text.html.twig
+   ▪️ field--paragraph--field-text.html.twig
+   ▪️ field--paragraph--text.html.twig
+   ▪️ field--field-text.html.twig
+   ✅ field--text-long.html.twig
+   ▪️ field.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/field--text-long.html.twig' --><div  class="clearfix text-formatted field field-name-field-text field-type-text-long field-label-hidden"><div class="field--item"><div class="col-md-54 px-0"><h2 class="h1 mb-2">How do I kick-start my mindfulness practice?</h2><p class="mb-3">The goal is to practice mindfulness meditation for at least <strong style="color: #73308A;">10 minutes each day for 30 days.</strong> You can do this in different ways:</p><ul><li>Listen to 1 or more of the <strong style="color: #73308A;">WILD 5 Meditations</strong> below.</li><li>Use a meditation app.</li><li>If you already practice mindfulness meditation, we encourage you to continue your practice.</li></ul></div></div></div><!-- END OUTPUT from 'themes/contrib/classy/templates/field/field--text-long.html.twig' --></div></div></div></section><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/paragraph/paragraph--text.html.twig' --></div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'paragraph' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ paragraph--text--default.html.twig
+   ✅ paragraph--text.html.twig
+   ▪️ paragraph--default.html.twig
+   ▪️ paragraph.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/paragraph/paragraph--text.html.twig' --><section class="paragraph paragraph--type--text paragraph--view-mode--default mt-5 mb-5" id="paragraph-261"><div class="container"><div class="row"><div class="col"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--paragraph--field-text--text.html.twig
+   ▪️ field--paragraph--field-text.html.twig
+   ▪️ field--paragraph--text.html.twig
+   ▪️ field--field-text.html.twig
+   ✅ field--text-long.html.twig
+   ▪️ field.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/field--text-long.html.twig' --><div  class="clearfix text-formatted field field-name-field-text field-type-text-long field-label-hidden"><div class="field--item"><div class="col-md-54 px-0"><div class="mb-4 mb-md-5"><div class="row"><h2 class="col-60 h1 mb-4 mb-md-5 order-2 order-md-1">Tips to start your mindfulness <span class="d-none d-sm-inline-block">meditation</span> practice:</h2><div class="col-md-7 pl-md-3 text-center text-md-left mb-4 mb-md-0 order-1 order-md-2"><!-- THEME DEBUG --><!-- THEME HOOK: 'media' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ media--source-image.html.twig
+   ▪️ media--svg-image--default.html.twig
+   ▪️ media--svg-image.html.twig
+   ▪️ media--default.html.twig
+   ✅ media.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --><article class="align-center media media--type-svg-image media--view-mode-default"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--media--field-media-image--svg-image--default.html.twig
+   ▪️ field--media--field-media-image--svg-image.html.twig
+   ▪️ field--media--field-media-image--default.html.twig
+   ▪️ field--media--field-media-image.html.twig
+   ▪️ field--media--svg-image--default.html.twig
+   ▪️ field--media--svg-image.html.twig
+   ▪️ field--field-media-image--default.html.twig
+   ▪️ field--field-media-image.html.twig
+   ▪️ field--image.html.twig
+   ✅ field.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><div class="field field-name-field-media-image field-type-image field-label-visually_hidden"><div class="field__label visually-hidden">Image</div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'image_formatter' --><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/image-formatter.html.twig' --><!-- THEME DEBUG --><!-- THEME HOOK: 'image' --><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/image.html.twig' --><img loading="lazy" src="../sites/default/files/svg/Group13.svg" alt typeof="foaf:Image"><!-- END OUTPUT from 'themes/contrib/classy/templates/field/image.html.twig' --><!-- END OUTPUT from 'themes/contrib/classy/templates/field/image-formatter.html.twig' --></div></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --></article><!-- END OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --></div><div class="col-md-53 order-3"><h2>There’s no right or wrong way to practice meditation.</h2><p>Your mind may wander frequently during some practices, and less during others. This doesn’t make one practice better than another – they simply are what they are. Keep in mind that one element of mindfulness is being non-judgmental. As you begin your practice, be kind to yourself and make it a priority to practice consistently.</p></div></div></div><h2 class="mb-3 pt-2 pt-md-0">Decide when you will meditate</h2><p>Setting aside a specific time of day can help make your practice part of your daily routine.</p><h2 class="mb-3 mt-4 mt-md-5 pt-2 pt-md-0">Minimize distractions</h2><p>To ensure that you’re not interrupted, let people know that you’ll be unavailable during your practice. Consider leaving your phone in another room or putting it on silent.</p></div><p>&nbsp;</p><p><a name="audio"></a></p><div class="block--audio py-4 px-4" style="max-width: 814px; border: 1px solid #CFDDBB; border-radius: 8px;"><div class="px-md-4 pt-md-4"><h2>WILD 5 Meditations</h2><div class="mb-4"><p class="mb-0">&nbsp;</p><p class="mb-0"><strong>Five Minute Breathing Space</strong></p><!-- THEME DEBUG --><!-- THEME HOOK: 'media' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ media--source-audio-file.html.twig
+   ▪️ media--audio--default.html.twig
+   ▪️ media--audio.html.twig
+   ▪️ media--default.html.twig
+   ✅ media.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --><article class="align-center media media--type-audio media--view-mode-default"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--media--field-media-audio-file--audio--default.html.twig
+   ▪️ field--media--field-media-audio-file--audio.html.twig
+   ▪️ field--media--field-media-audio-file--default.html.twig
+   ▪️ field--media--field-media-audio-file.html.twig
+   ▪️ field--media--audio--default.html.twig
+   ▪️ field--media--audio.html.twig
+   ▪️ field--field-media-audio-file--default.html.twig
+   ▪️ field--field-media-audio-file.html.twig
+   ▪️ field--file.html.twig
+   ✅ field.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><div class="field field-name-field-media-audio-file field-type-file field-label-visually_hidden"><div class="field__label visually-hidden">Audio file</div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'file_audio' --><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/file-audio.html.twig' --><audio controls="controls"><source src="../sites/default/files/2022-02/__________five_minute_breathing_space.mp3" type="audio/mpeg"></audio><!-- END OUTPUT from 'themes/contrib/classy/templates/field/file-audio.html.twig' --></div></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --></article><!-- END OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --></div><div class="mb-4"><p class="mb-0"><b>Mindful Breathing</b></p><!-- THEME DEBUG --><!-- THEME HOOK: 'media' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ media--source-audio-file.html.twig
+   ▪️ media--audio--default.html.twig
+   ▪️ media--audio.html.twig
+   ▪️ media--default.html.twig
+   ✅ media.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --><article class="align-center media media--type-audio media--view-mode-default"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--media--field-media-audio-file--audio--default.html.twig
+   ▪️ field--media--field-media-audio-file--audio.html.twig
+   ▪️ field--media--field-media-audio-file--default.html.twig
+   ▪️ field--media--field-media-audio-file.html.twig
+   ▪️ field--media--audio--default.html.twig
+   ▪️ field--media--audio.html.twig
+   ▪️ field--field-media-audio-file--default.html.twig
+   ▪️ field--field-media-audio-file.html.twig
+   ▪️ field--file.html.twig
+   ✅ field.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><div class="field field-name-field-media-audio-file field-type-file field-label-visually_hidden"><div class="field__label visually-hidden">Audio file</div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'file_audio' --><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/file-audio.html.twig' --><audio controls="controls"><source src="../sites/default/files/2022-02/________mindful_breathing.mp3" type="audio/mpeg"></audio><!-- END OUTPUT from 'themes/contrib/classy/templates/field/file-audio.html.twig' --></div></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --></article><!-- END OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --></div><div class="mb-4"><p class="mb-0"><b>Body Scan</b></p><!-- THEME DEBUG --><!-- THEME HOOK: 'media' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ media--source-audio-file.html.twig
+   ▪️ media--audio--default.html.twig
+   ▪️ media--audio.html.twig
+   ▪️ media--default.html.twig
+   ✅ media.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --><article class="align-center media media--type-audio media--view-mode-default"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--media--field-media-audio-file--audio--default.html.twig
+   ▪️ field--media--field-media-audio-file--audio.html.twig
+   ▪️ field--media--field-media-audio-file--default.html.twig
+   ▪️ field--media--field-media-audio-file.html.twig
+   ▪️ field--media--audio--default.html.twig
+   ▪️ field--media--audio.html.twig
+   ▪️ field--field-media-audio-file--default.html.twig
+   ▪️ field--field-media-audio-file.html.twig
+   ▪️ field--file.html.twig
+   ✅ field.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><div class="field field-name-field-media-audio-file field-type-file field-label-visually_hidden"><div class="field__label visually-hidden">Audio file</div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'file_audio' --><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/file-audio.html.twig' --><audio controls="controls"><source src="../sites/default/files/2022-02/________body_scan.mp3" type="audio/mpeg"></audio><!-- END OUTPUT from 'themes/contrib/classy/templates/field/file-audio.html.twig' --></div></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --></article><!-- END OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --></div><div class="mb-4"><p class="mb-0"><b>A Moment of Gratitude</b></p><!-- THEME DEBUG --><!-- THEME HOOK: 'media' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ media--source-audio-file.html.twig
+   ▪️ media--audio--default.html.twig
+   ▪️ media--audio.html.twig
+   ▪️ media--default.html.twig
+   ✅ media.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --><article class="align-center media media--type-audio media--view-mode-default"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--media--field-media-audio-file--audio--default.html.twig
+   ▪️ field--media--field-media-audio-file--audio.html.twig
+   ▪️ field--media--field-media-audio-file--default.html.twig
+   ▪️ field--media--field-media-audio-file.html.twig
+   ▪️ field--media--audio--default.html.twig
+   ▪️ field--media--audio.html.twig
+   ▪️ field--field-media-audio-file--default.html.twig
+   ▪️ field--field-media-audio-file.html.twig
+   ▪️ field--file.html.twig
+   ✅ field.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><div class="field field-name-field-media-audio-file field-type-file field-label-visually_hidden"><div class="field__label visually-hidden">Audio file</div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'file_audio' --><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/file-audio.html.twig' --><audio controls="controls"><source src="../sites/default/files/2022-02/________a_moment_of_graditude.mp3" type="audio/mpeg"></audio><!-- END OUTPUT from 'themes/contrib/classy/templates/field/file-audio.html.twig' --></div></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --></article><!-- END OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --></div><div class="mb-4"><p class="mb-0"><b>Happiness Meditation</b></p><!-- THEME DEBUG --><!-- THEME HOOK: 'media' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ media--source-audio-file.html.twig
+   ▪️ media--audio--default.html.twig
+   ▪️ media--audio.html.twig
+   ▪️ media--default.html.twig
+   ✅ media.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --><article class="align-center media media--type-audio media--view-mode-default"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--media--field-media-audio-file--audio--default.html.twig
+   ▪️ field--media--field-media-audio-file--audio.html.twig
+   ▪️ field--media--field-media-audio-file--default.html.twig
+   ▪️ field--media--field-media-audio-file.html.twig
+   ▪️ field--media--audio--default.html.twig
+   ▪️ field--media--audio.html.twig
+   ▪️ field--field-media-audio-file--default.html.twig
+   ▪️ field--field-media-audio-file.html.twig
+   ▪️ field--file.html.twig
+   ✅ field.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><div class="field field-name-field-media-audio-file field-type-file field-label-visually_hidden"><div class="field__label visually-hidden">Audio file</div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'file_audio' --><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/file-audio.html.twig' --><audio controls="controls"><source src="../sites/default/files/2022-02/________happiness_meditation.mp3" type="audio/mpeg"></audio><!-- END OUTPUT from 'themes/contrib/classy/templates/field/file-audio.html.twig' --></div></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --></article><!-- END OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --></div><div class="mb-4"><p class="mb-0"><b>Pain Meditation</b></p><!-- THEME DEBUG --><!-- THEME HOOK: 'media' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ media--source-audio-file.html.twig
+   ▪️ media--audio--default.html.twig
+   ▪️ media--audio.html.twig
+   ▪️ media--default.html.twig
+   ✅ media.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --><article class="align-center media media--type-audio media--view-mode-default"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--media--field-media-audio-file--audio--default.html.twig
+   ▪️ field--media--field-media-audio-file--audio.html.twig
+   ▪️ field--media--field-media-audio-file--default.html.twig
+   ▪️ field--media--field-media-audio-file.html.twig
+   ▪️ field--media--audio--default.html.twig
+   ▪️ field--media--audio.html.twig
+   ▪️ field--field-media-audio-file--default.html.twig
+   ▪️ field--field-media-audio-file.html.twig
+   ▪️ field--file.html.twig
+   ✅ field.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><div class="field field-name-field-media-audio-file field-type-file field-label-visually_hidden"><div class="field__label visually-hidden">Audio file</div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'file_audio' --><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/file-audio.html.twig' --><audio controls="controls"><source src="../sites/default/files/2022-02/________pain_meditation.mp3" type="audio/mpeg"></audio><!-- END OUTPUT from 'themes/contrib/classy/templates/field/file-audio.html.twig' --></div></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --></article><!-- END OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --></div><div class="mb-4"><p class="mb-0"><b>Mindful Moment with a Raisin</b></p><!-- THEME DEBUG --><!-- THEME HOOK: 'media' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ media--source-audio-file.html.twig
+   ▪️ media--audio--default.html.twig
+   ▪️ media--audio.html.twig
+   ▪️ media--default.html.twig
+   ✅ media.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --><article class="align-center media media--type-audio media--view-mode-default"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--media--field-media-audio-file--audio--default.html.twig
+   ▪️ field--media--field-media-audio-file--audio.html.twig
+   ▪️ field--media--field-media-audio-file--default.html.twig
+   ▪️ field--media--field-media-audio-file.html.twig
+   ▪️ field--media--audio--default.html.twig
+   ▪️ field--media--audio.html.twig
+   ▪️ field--field-media-audio-file--default.html.twig
+   ▪️ field--field-media-audio-file.html.twig
+   ▪️ field--file.html.twig
+   ✅ field.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><div class="field field-name-field-media-audio-file field-type-file field-label-visually_hidden"><div class="field__label visually-hidden">Audio file</div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'file_audio' --><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/file-audio.html.twig' --><audio controls="controls"><source src="../sites/default/files/2022-02/________mindful_moment_with_a_raisen.mp3" type="audio/mpeg"></audio><!-- END OUTPUT from 'themes/contrib/classy/templates/field/file-audio.html.twig' --></div></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --></article><!-- END OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --></div></div></div></div></div><!-- END OUTPUT from 'themes/contrib/classy/templates/field/field--text-long.html.twig' --></div></div></div></section><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/paragraph/paragraph--text.html.twig' --></div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'paragraph' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ paragraph--text--default.html.twig
+   ✅ paragraph--text.html.twig
+   ▪️ paragraph--default.html.twig
+   ▪️ paragraph.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/paragraph/paragraph--text.html.twig' --><section class="paragraph paragraph--type--text paragraph--view-mode--default bg-semi-teal mt-4 mb-5 pt-5 pb-5" id="paragraph-266"><div class="container"><div class="row"><div class="col"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--paragraph--field-text--text.html.twig
+   ▪️ field--paragraph--field-text.html.twig
+   ▪️ field--paragraph--text.html.twig
+   ▪️ field--field-text.html.twig
+   ✅ field--text-long.html.twig
+   ▪️ field.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/field--text-long.html.twig' --><div  class="clearfix text-formatted field field-name-field-text field-type-text-long field-label-hidden"><div class="field--item"><div class="col-md-54 px-0"><h2 class="h1 mb-md-3">What might keep you from meditating?</h2><p class="mb-5"><strong>Here are a few challenges you might come across, and tips on how to overcome them: </strong></p><h2 class="mb-2 mb-md-3">“Beginner jitters”</h2><p>If you have never meditated, and you’re worried you won’t do it correctly, you’re not alone. Anyone can begin and grow a mindfulness meditation practice. <strong style="color: #73308A;">Remember:</strong></p><ul><li>You can use the <strong style="color: #73308A;">WILD 5 Meditations</strong> or an online meditation app to guide you.</li><li>Distractions during your practice are normal. Please be kind to yourself when your mind wanders. Even the Dalai Lama talks about his mind wandering during meditation.</li><li>A mindfulness meditation practice is built through practice, patience, and self-compassion.</li><li>There is no such thing as a ‘good’ or ‘bad’ mindfulness meditation practice.</li></ul><p class="mb-0 mb-md-3" style="line-height: 10px;">&nbsp;</p><h2 class="mb-2 mb-md-3">Lack of time</h2><p>Making time to practice your meditation consistently is important to get the full benefits. Regular practice creates lasting positive changes in your body and brain and works to improve your mental health. Consider these general tips:</p><ul><li>If time is a challenge, you can break the 10-minute-meditation into two, 5-minute blocks</li><li>Add your practice to your calendar and set reminder alerts&nbsp;</li><li>Tell your family and friends when you’ll be meditating to avoid being interrupted&nbsp;</li></ul><p class="mb-0 mb-md-3" style="line-height: 10px;">&nbsp;</p><h2 class="mb-2 mb-md-3">Low motivation&nbsp;</h2><p>When you begin your mindfulness meditation practice, you may feel frustrated or bored. No matter what feelings you have – good, bad, or indifferent – do your best to stick with the practice and remember there is no right or wrong way to meditate.</p></div></div></div><!-- END OUTPUT from 'themes/contrib/classy/templates/field/field--text-long.html.twig' --></div></div></div></section><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/paragraph/paragraph--text.html.twig' --></div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'paragraph' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ paragraph--text--default.html.twig
+   ✅ paragraph--text.html.twig
+   ▪️ paragraph--default.html.twig
+   ▪️ paragraph.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/paragraph/paragraph--text.html.twig' --><section class="paragraph paragraph--type--text paragraph--view-mode--default template--paragraph-frame-small template--paragraph-frame mt-5 mb-5 pb-5" id="paragraph-271"><div class="container"><div class="row"><div class="col"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--paragraph--field-text--text.html.twig
+   ▪️ field--paragraph--field-text.html.twig
+   ▪️ field--paragraph--text.html.twig
+   ▪️ field--field-text.html.twig
+   ✅ field--text-long.html.twig
+   ▪️ field.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/field--text-long.html.twig' --><div  class="clearfix text-formatted field field-name-field-text field-type-text-long field-label-hidden"><div class="field--item"><div class="row align-items-center"><div class="col-24 col-md-12 offset-lg-1 col-lg-10 mb-4 mb-md-0 mx-auto text-center text-md-left"><!-- THEME DEBUG --><!-- THEME HOOK: 'media' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ media--source-image.html.twig
+   ▪️ media--svg-image--default.html.twig
+   ▪️ media--svg-image.html.twig
+   ▪️ media--default.html.twig
+   ✅ media.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --><article class="align-center media media--type-svg-image media--view-mode-default"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--media--field-media-image--svg-image--default.html.twig
+   ▪️ field--media--field-media-image--svg-image.html.twig
+   ▪️ field--media--field-media-image--default.html.twig
+   ▪️ field--media--field-media-image.html.twig
+   ▪️ field--media--svg-image--default.html.twig
+   ▪️ field--media--svg-image.html.twig
+   ▪️ field--field-media-image--default.html.twig
+   ▪️ field--field-media-image.html.twig
+   ▪️ field--image.html.twig
+   ✅ field.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><div class="field field-name-field-media-image field-type-image field-label-visually_hidden"><div class="field__label visually-hidden">Image</div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'image_formatter' --><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/image-formatter.html.twig' --><!-- THEME DEBUG --><!-- THEME HOOK: 'image' --><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/image.html.twig' --><img loading="lazy" src="../sites/default/files/svg/noun-empathy-3841797-73308A.svg" alt typeof="foaf:Image"><!-- END OUTPUT from 'themes/contrib/classy/templates/field/image.html.twig' --><!-- END OUTPUT from 'themes/contrib/classy/templates/field/image-formatter.html.twig' --></div></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --></article><!-- END OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --></div><div class="col-md-48 offset-lg-1"><h2>Perfection is not the goal.</h2><p class="mt-3 mt-md-2"><strong style="color: #73308a">Be kind to yourself</strong> as you begin making these changes. Change can be challenging. If you miss a day or two, shake it off, regroup, and keep going!</p></div></div></div></div><!-- END OUTPUT from 'themes/contrib/classy/templates/field/field--text-long.html.twig' --></div></div></div></section><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/paragraph/paragraph--text.html.twig' --></div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'paragraph' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ paragraph--text--default.html.twig
+   ✅ paragraph--text.html.twig
+   ▪️ paragraph--default.html.twig
+   ▪️ paragraph.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/paragraph/paragraph--text.html.twig' --><section class="paragraph paragraph--type--text paragraph--view-mode--default mt-5 pb-5 pb-md-1" id="paragraph-456"><div class="container"><div class="row"><div class="col"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--paragraph--field-text--text.html.twig
+   ▪️ field--paragraph--field-text.html.twig
+   ▪️ field--paragraph--text.html.twig
+   ▪️ field--field-text.html.twig
+   ✅ field--text-long.html.twig
+   ▪️ field.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/field--text-long.html.twig' --><div  class="clearfix text-formatted field field-name-field-text field-type-text-long field-label-hidden"><div class="field--item"><div class="links row"><div class="links--item"><a href="../exercise.html">Explore Exercise</a></div><div class="links--item text-align-right"><a href="../sleep.html">Explore Sleep</a></div></div></div></div><!-- END OUTPUT from 'themes/contrib/classy/templates/field/field--text-long.html.twig' --></div></div></div></section><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/paragraph/paragraph--text.html.twig' --></div></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --></div></article><!-- END OUTPUT from 'themes/contrib/classy/templates/content/node.html.twig' --></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/block/block.html.twig' -->  </div>
+
+
+
+
+        </div>
+                </main>
+
+  </div>
+
+
+<footer id="section-footer" role="contentinfo" class="bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-60">
+                  
+
+
+
+
+  <div class="region region-footer clearfix">
+  <!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ block--footer.html.twig
+   ▪️ block--sitebranding.html.twig
+   ✅ block--system-branding-block.html.twig
+   ▪️ block--system.html.twig
+   ▪️ block.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/block/block--system-branding-block.html.twig' --><div id="block-sitebranding" class="block block-system block-system-branding-block"><a href="../index.html" rel="home" class="site-logo"><img src="../themes/custom/wild5_theme/logo.svg" alt="Home" class="template--logo-dark" /><img src="../themes/custom/wild5_theme/assets/build/img/logo_white.svg" alt="Home" class="template--logo-white"/></a></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/block/block--system-branding-block.html.twig' --><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ block--footer.html.twig
+   ▪️ block--otsukalogo.html.twig
+   ▪️ block--block-content--a697b6d0-ed8b-4c73-96b2-098b015e1110.html.twig
+   ▪️ block--block-content--id-view--otsukalogo--full.html.twig
+   ▪️ block--block-content--id--otsukalogo.html.twig
+   ▪️ block--otsukalogo.html.twig
+   ▪️ block--block-content--basic--otsuka-logo.html.twig
+   ▪️ block--block-content--basic.html.twig
+   ▪️ block--block-content.html.twig
+   ✅ block.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/block/block.html.twig' --><div id="block-otsukalogo" class="block-content-otsuka-logo block-content-basic block block-block-content block-block-contenta697b6d0-ed8b-4c73-96b2-098b015e1110"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--block-content--body--basic.html.twig
+   ▪️ field--block-content--body.html.twig
+   ▪️ field--block-content--basic.html.twig
+   ▪️ field--body.html.twig
+   ✅ field--text-with-summary.html.twig
+   ▪️ field.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/field--text-with-summary.html.twig' --><div  class="clearfix text-formatted field field-name-body field-type-text-with-summary field-label-hidden"><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'media' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ media--source-image.html.twig
+   ▪️ media--svg-image--default.html.twig
+   ▪️ media--svg-image.html.twig
+   ▪️ media--default.html.twig
+   ✅ media.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --><article class="align-center media media--type-svg-image media--view-mode-default"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--media--field-media-image--svg-image--default.html.twig
+   ▪️ field--media--field-media-image--svg-image.html.twig
+   ▪️ field--media--field-media-image--default.html.twig
+   ▪️ field--media--field-media-image.html.twig
+   ▪️ field--media--svg-image--default.html.twig
+   ▪️ field--media--svg-image.html.twig
+   ▪️ field--field-media-image--default.html.twig
+   ▪️ field--field-media-image.html.twig
+   ▪️ field--image.html.twig
+   ✅ field.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --><div class="field field-name-field-media-image field-type-image field-label-visually_hidden"><div class="field__label visually-hidden">Image</div><div class="field--item"><!-- THEME DEBUG --><!-- THEME HOOK: 'image_formatter' --><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/image-formatter.html.twig' --><!-- THEME DEBUG --><!-- THEME HOOK: 'image' --><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/image.html.twig' --><img loading="lazy" src="../sites/default/files/svg/otsuka-logo.svg" alt typeof="foaf:Image"><!-- END OUTPUT from 'themes/contrib/classy/templates/field/image.html.twig' --><!-- END OUTPUT from 'themes/contrib/classy/templates/field/image-formatter.html.twig' --></div></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/field/field.html.twig' --></article><!-- END OUTPUT from 'themes/contrib/classy/templates/content/media.html.twig' --></div></div><!-- END OUTPUT from 'themes/contrib/classy/templates/field/field--text-with-summary.html.twig' --></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/block/block.html.twig' --><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ block--footer.html.twig
+   ▪️ block--copyright.html.twig
+   ▪️ block--block-content--240570d6-db41-449d-8b69-055fb2f9708c.html.twig
+   ▪️ block--block-content--id-view--copyright--full.html.twig
+   ▪️ block--block-content--id--copyright.html.twig
+   ▪️ block--copyright.html.twig
+   ▪️ block--block-content--basic--copyright.html.twig
+   ▪️ block--block-content--basic.html.twig
+   ▪️ block--block-content.html.twig
+   ✅ block.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/block/block.html.twig' --><div id="block-copyright" class="block-content-copyright block-content-basic block block-block-content block-block-content240570d6-db41-449d-8b69-055fb2f9708c"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--block-content--body--basic.html.twig
+   ▪️ field--block-content--body.html.twig
+   ▪️ field--block-content--basic.html.twig
+   ▪️ field--body.html.twig
+   ✅ field--text-with-summary.html.twig
+   ▪️ field.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/field--text-with-summary.html.twig' --><div  class="clearfix text-formatted field field-name-body field-type-text-with-summary field-label-hidden"><div class="field--item"><p class="mb-3" style="max-width:510px;">WILD 5 is brought to you by Otsuka Pharmaceutical Development &amp; Commercialization, Inc.</p><div class="d-lg-flex justify-content-lg-between"><p class="mb-3">Learn more about Otsuka and our mission of improving<br>mental health worldwide at <a href="https://otsuka-us.com/" target="_blank">otsuka-us.com</a>.</p><p class="mb-3 copyright-text">©2025 Otsuka Pharmaceutical Development &amp; Commercialization, Inc.<br>All rights reserved.</p></div></div></div><!-- END OUTPUT from 'themes/contrib/classy/templates/field/field--text-with-summary.html.twig' --></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/block/block.html.twig' -->  </div>
+
+
+
+
+                          
+
+
+
+
+
+  <div class="region region-footer-bottom clearfix">
+  <!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ block--footer-bottom.html.twig
+   ▪️ block--wild5-theme-footer.html.twig
+   ▪️ block--system-menu-block--footer.html.twig
+   ✅ block--system-menu-block.html.twig
+   ▪️ block--system.html.twig
+   ▪️ block.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/block/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-wild5-theme-footer-menu" id="block-wild5-theme-footer" class="block block-menu navigation menu--footer"><h2 class="visually-hidden" id="block-wild5-theme-footer-menu">Footer menu</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu__footer' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ menu--footer.html.twig
+   ▪️ menu--footer--footer-bottom.html.twig
+   ✅ menu.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/navigation/menu.html.twig' --><ul block="block-wild5-theme-footer" region="footer_bottom" class="nav navbar-nav"><li class="nav-item"><a href="https://otsuka-us.com/terms-and-conditions" target="_blank" class="nav-link"><span>Terms of Use</span></a></li><li class="nav-item"><a href="https://otsuka-us.com/privacy-policy" target="_blank" class="nav-link"><span>Privacy Policy</span></a></li><li class="nav-item"><a href="https://www.otsuka-us.com/who-we-are" target="_blank" class="nav-link"><span>About Us</span></a></li></ul><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/navigation/menu.html.twig' --></nav><!-- END OUTPUT from 'themes/contrib/classy/templates/block/block--system-menu-block.html.twig' --><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ block--footer-bottom.html.twig
+   ▪️ block--prccodeanddate.html.twig
+   ▪️ block--block-content--950cd6f6-aa3c-4b75-a28f-b4e721f84f0a.html.twig
+   ▪️ block--block-content--id-view--prccodeanddate--full.html.twig
+   ▪️ block--block-content--id--prccodeanddate.html.twig
+   ▪️ block--prccodeanddate.html.twig
+   ▪️ block--block-content--basic--prc-code-and-date.html.twig
+   ▪️ block--block-content--basic.html.twig
+   ▪️ block--block-content.html.twig
+   ✅ block.html.twig
+--><!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/block/block.html.twig' --><div id="block-prccodeanddate" class="block-content-prc-code-and-date block-content-basic block block-block-content block-block-content950cd6f6-aa3c-4b75-a28f-b4e721f84f0a"><!-- THEME DEBUG --><!-- THEME HOOK: 'field' --><!-- FILE NAME SUGGESTIONS:
+   ▪️ field--block-content--body--basic.html.twig
+   ▪️ field--block-content--body.html.twig
+   ▪️ field--block-content--basic.html.twig
+   ▪️ field--body.html.twig
+   ✅ field--text-with-summary.html.twig
+   ▪️ field.html.twig
+--><!-- BEGIN OUTPUT from 'themes/contrib/classy/templates/field/field--text-with-summary.html.twig' --><div  class="clearfix text-formatted field field-name-body field-type-text-with-summary field-label-hidden"><div class="field--item"><p><span class="date">August 2025</span> 01US25EUC0350</p></div></div><!-- END OUTPUT from 'themes/contrib/classy/templates/field/field--text-with-summary.html.twig' --></div><!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/wild5_theme/templates/block/block.html.twig' -->  </div>
+
+
+
+
+              </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+  </div>
+
+
+
+    
+    <script src="../sites/default/files/js/js_u9H4jrRbq2cCf3nAgyZJtmRXUm7A2SJKGW5TrLOG8KY8b94.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=wild5_theme&amp;include=eJx9yTsOwyAMANAL0TD1PJZLXGrVHxRMI24fKZm6ZH3Po48vwtvL6KBoWGnLbBzLScmvbxv_sEwork0YLUBpZcz3nXaW9QnxIaVcxV8ojx5T2OpfKdlYwtsBwE84EQ"></script>
+
+  </body>
+</html>
+
+
