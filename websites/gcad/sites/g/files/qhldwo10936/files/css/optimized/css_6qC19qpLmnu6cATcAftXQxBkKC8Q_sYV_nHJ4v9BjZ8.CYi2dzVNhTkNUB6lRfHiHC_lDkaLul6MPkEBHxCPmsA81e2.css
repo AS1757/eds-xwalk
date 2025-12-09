@@ -1,6 +1,0 @@
-.toolbar-oriented .toolbar-tray-vertical {
-  width: 240px !important;
-}
-body.toolbar-tray-open.toolbar-vertical.toolbar-fixed {
-  margin-left: 240px !important;
-}
